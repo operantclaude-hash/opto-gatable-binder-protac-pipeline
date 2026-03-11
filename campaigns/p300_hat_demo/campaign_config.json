@@ -1,0 +1,56 @@
+{
+  "campaign_name": "p300_hat_demo",
+  "target": {
+    "name": "p300_HAT",
+    "sequence": "KFSAKRLPSTRLGTFLENRVNDFLRRQNHPESGEVTVRVVHASDKTVEVKPGMKARFVDSGEMAESFPYRTKALFAFEEIDGVDLCFFGMHVQEYGSDCPPPNQRRVYISYLDSVHFFRPKCLRTAVYHEILIGYLEYVKKLGYTTGHIWACPPSEGDDYIFHCHPPDQKIPKPKRLQEWYKKMLDKAVSERIVHDYKDIFKQATEDRLTSAKELPYFEGDFWPNVLEESIKESQKLYATMEKHKEVFFVIRLIAGPAANSLPPIVDPDPLIPCDLMDGRDAFLTLARDRHLEFSSLRRAQWSTGCMLVELHTQSQD",
+    "hotspot_residues_1idx": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      170,
+      181,
+      185,
+      219,
+      220,
+      221
+    ],
+    "pdb_path": null
+  },
+  "binders": [
+    {
+      "name": "pep13s3",
+      "sequence": "AAQSGFSPASEAAAAELLAA",
+      "length": 20,
+      "iptm": 0.94,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "binder_944",
+      "sequence": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+      "length": 118,
+      "iptm": 0.87,
+      "reference_complex_cif": null
+    }
+  ],
+  "scaffold": {
+    "architecture": "C",
+    "lov2_dark_seq": "LERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAA",
+    "lov2_lit_seq": "LERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREG",
+    "cap_seq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "cap_name": "UBQ",
+    "binder_lov2_spacer": "GGSGGS",
+    "linkers": "all",
+    "dark_cone_half_angle": 25.0,
+    "lit_cone_half_angle": 60.0
+  },
+  "prediction": {
+    "diffusion_samples": 5,
+    "recycling_steps": 3,
+    "model": "boltz2"
+  }
+}

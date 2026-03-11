@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+campaigns/*/boltz2_results/
+campaigns/*/boltz2_yamls/
+campaigns/*/sweep_volumes/
+campaigns/*/chimerax/
+campaigns/*/analysis/
+campaigns/*/manifest.json
+campaigns/*/run_predictions.sh
+*.cif
