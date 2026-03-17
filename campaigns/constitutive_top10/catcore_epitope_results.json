@@ -1,0 +1,1476 @@
+[
+  {
+    "binder": "pep4s2",
+    "best_model_idx": 2,
+    "best_iptm": 0.39660605788230896,
+    "best_total_contacts": 21,
+    "best_hotspot_contacts": 0,
+    "best_hotspot_pct": 0.0,
+    "best_verdict": "OFF-TARGET",
+    "best_hat_equiv": [],
+    "avg_hotspot": 0.0,
+    "min_hotspot": 0,
+    "max_hotspot": 0,
+    "union_hotspots_hat": [],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.38573402166366577,
+        "total_contacts": 19,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 1,
+        "iptm": 0.30719855427742004,
+        "total_contacts": 19,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 2,
+        "iptm": 0.39660605788230896,
+        "total_contacts": 21,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 3,
+        "iptm": 0.21257570385932922,
+        "total_contacts": 21,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.2661271393299103,
+        "total_contacts": 10,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep13s3",
+    "best_model_idx": 2,
+    "best_iptm": 0.37338921427726746,
+    "best_total_contacts": 33,
+    "best_hotspot_contacts": 6,
+    "best_hotspot_pct": 42.857142857142854,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      91,
+      111,
+      158,
+      159,
+      160,
+      163
+    ],
+    "avg_hotspot": 2.4,
+    "min_hotspot": 0,
+    "max_hotspot": 6,
+    "union_hotspots_hat": [
+      91,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.87577885389328,
+        "total_contacts": 24,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          111,
+          160,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5099591016769409,
+        "total_contacts": 26,
+        "hotspot_contacts": 2,
+        "hat_equiv": [
+          150,
+          219
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.37338921427726746,
+        "total_contacts": 33,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          91,
+          111,
+          158,
+          159,
+          160,
+          163
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.17174991965293884,
+        "total_contacts": 13,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.3064626157283783,
+        "total_contacts": 27,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep30s5",
+    "best_model_idx": 0,
+    "best_iptm": 0.877168595790863,
+    "best_total_contacts": 27,
+    "best_hotspot_contacts": 9,
+    "best_hotspot_pct": 64.28571428571429,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      220,
+      221
+    ],
+    "avg_hotspot": 4.4,
+    "min_hotspot": 0,
+    "max_hotspot": 9,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      150,
+      158,
+      220
+    ],
+    "n_consistent": 3,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.877168595790863,
+        "total_contacts": 27,
+        "hotspot_contacts": 9,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5742515325546265,
+        "total_contacts": 10,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          150,
+          158,
+          160,
+          219
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.3806494176387787,
+        "total_contacts": 27,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.18580281734466553,
+        "total_contacts": 14,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.3952794671058655,
+        "total_contacts": 29,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          91,
+          111,
+          150,
+          158,
+          163,
+          220
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep29s5",
+    "best_model_idx": 3,
+    "best_iptm": 0.32035958766937256,
+    "best_total_contacts": 34,
+    "best_hotspot_contacts": 3,
+    "best_hotspot_pct": 21.428571428571427,
+    "best_verdict": "MARGINAL",
+    "best_hat_equiv": [
+      158,
+      159,
+      163
+    ],
+    "avg_hotspot": 1.4,
+    "min_hotspot": 0,
+    "max_hotspot": 3,
+    "union_hotspots_hat": [
+      158,
+      159,
+      160,
+      163,
+      219
+    ],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.4169970154762268,
+        "total_contacts": 21,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 1,
+        "iptm": 0.3760492205619812,
+        "total_contacts": 16,
+        "hotspot_contacts": 1,
+        "hat_equiv": [
+          219
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.36764976382255554,
+        "total_contacts": 21,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 3,
+        "iptm": 0.32035958766937256,
+        "total_contacts": 34,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          158,
+          159,
+          163
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.27442288398742676,
+        "total_contacts": 16,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          159,
+          160,
+          163
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep25s1",
+    "best_model_idx": 0,
+    "best_iptm": 0.42098310589790344,
+    "best_total_contacts": 32,
+    "best_hotspot_contacts": 7,
+    "best_hotspot_pct": 50.0,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      110,
+      111,
+      150,
+      158,
+      160,
+      219,
+      220
+    ],
+    "avg_hotspot": 2.0,
+    "min_hotspot": 0,
+    "max_hotspot": 7,
+    "union_hotspots_hat": [
+      110,
+      111,
+      150,
+      158,
+      160,
+      219,
+      220
+    ],
+    "consistent_hotspots_hat": [
+      219
+    ],
+    "n_consistent": 1,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.42098310589790344,
+        "total_contacts": 32,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          110,
+          111,
+          150,
+          158,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.22780032455921173,
+        "total_contacts": 25,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 2,
+        "iptm": 0.2870429754257202,
+        "total_contacts": 37,
+        "hotspot_contacts": 1,
+        "hat_equiv": [
+          219
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.17951028048992157,
+        "total_contacts": 18,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.2650269865989685,
+        "total_contacts": 28,
+        "hotspot_contacts": 2,
+        "hat_equiv": [
+          150,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep21s5",
+    "best_model_idx": 1,
+    "best_iptm": 0.629144012928009,
+    "best_total_contacts": 39,
+    "best_hotspot_contacts": 9,
+    "best_hotspot_pct": 64.28571428571429,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      219,
+      220
+    ],
+    "avg_hotspot": 4.6,
+    "min_hotspot": 0,
+    "max_hotspot": 9,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220
+    ],
+    "consistent_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      219,
+      220
+    ],
+    "n_consistent": 6,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.6949185132980347,
+        "total_contacts": 30,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.629144012928009,
+        "total_contacts": 39,
+        "hotspot_contacts": 9,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.3673776686191559,
+        "total_contacts": 26,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          163,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.28855353593826294,
+        "total_contacts": 16,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.1769024282693863,
+        "total_contacts": 19,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep21s2",
+    "best_model_idx": 2,
+    "best_iptm": 0.545483410358429,
+    "best_total_contacts": 51,
+    "best_hotspot_contacts": 10,
+    "best_hotspot_pct": 71.42857142857143,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220
+    ],
+    "avg_hotspot": 7.4,
+    "min_hotspot": 4,
+    "max_hotspot": 10,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      160,
+      219,
+      220
+    ],
+    "n_consistent": 8,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.5593923926353455,
+        "total_contacts": 38,
+        "hotspot_contacts": 8,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.6138579845428467,
+        "total_contacts": 31,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          220
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.545483410358429,
+        "total_contacts": 51,
+        "hotspot_contacts": 10,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.42887577414512634,
+        "total_contacts": 39,
+        "hotspot_contacts": 8,
+        "hat_equiv": [
+          110,
+          111,
+          150,
+          158,
+          160,
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.33873188495635986,
+        "total_contacts": 53,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep15s3",
+    "best_model_idx": 1,
+    "best_iptm": 0.5544494986534119,
+    "best_total_contacts": 28,
+    "best_hotspot_contacts": 7,
+    "best_hotspot_pct": 50.0,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163
+    ],
+    "avg_hotspot": 3.6,
+    "min_hotspot": 0,
+    "max_hotspot": 7,
+    "union_hotspots_hat": [
+      91,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      111,
+      160
+    ],
+    "n_consistent": 2,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.6024684906005859,
+        "total_contacts": 32,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          111,
+          150,
+          160,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5544494986534119,
+        "total_contacts": 28,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          91,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.5885468125343323,
+        "total_contacts": 27,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          91,
+          111,
+          159,
+          160,
+          163
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.22981300950050354,
+        "total_contacts": 17,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.1756400465965271,
+        "total_contacts": 28,
+        "hotspot_contacts": 1,
+        "hat_equiv": [
+          221
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep17s4",
+    "best_model_idx": 4,
+    "best_iptm": 0.38294586539268494,
+    "best_total_contacts": 23,
+    "best_hotspot_contacts": 6,
+    "best_hotspot_pct": 42.857142857142854,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      111,
+      150,
+      159,
+      160,
+      163,
+      219
+    ],
+    "avg_hotspot": 3.8,
+    "min_hotspot": 1,
+    "max_hotspot": 6,
+    "union_hotspots_hat": [
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      170,
+      219,
+      220
+    ],
+    "consistent_hotspots_hat": [
+      111,
+      150,
+      159
+    ],
+    "n_consistent": 3,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.5856534242630005,
+        "total_contacts": 20,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          159,
+          163,
+          170
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5910741686820984,
+        "total_contacts": 24,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          111,
+          158,
+          159,
+          160,
+          220
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.3664027452468872,
+        "total_contacts": 22,
+        "hotspot_contacts": 1,
+        "hat_equiv": [
+          150
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.40013593435287476,
+        "total_contacts": 22,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          111,
+          150,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.38294586539268494,
+        "total_contacts": 23,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          111,
+          150,
+          159,
+          160,
+          163,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep10s5",
+    "best_model_idx": 2,
+    "best_iptm": 0.38845503330230713,
+    "best_total_contacts": 30,
+    "best_hotspot_contacts": 6,
+    "best_hotspot_pct": 42.857142857142854,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      110,
+      111,
+      150,
+      160,
+      219,
+      220
+    ],
+    "avg_hotspot": 1.4,
+    "min_hotspot": 0,
+    "max_hotspot": 6,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      160,
+      219,
+      220
+    ],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.5110637545585632,
+        "total_contacts": 26,
+        "hotspot_contacts": 1,
+        "hat_equiv": [
+          91
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.2981339395046234,
+        "total_contacts": 34,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 2,
+        "iptm": 0.38845503330230713,
+        "total_contacts": 30,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          110,
+          111,
+          150,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.2259344458580017,
+        "total_contacts": 20,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.276957243680954,
+        "total_contacts": 19,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep24s3",
+    "best_model_idx": 1,
+    "best_iptm": 0.6009288430213928,
+    "best_total_contacts": 25,
+    "best_hotspot_contacts": 6,
+    "best_hotspot_pct": 42.857142857142854,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      91,
+      111,
+      158,
+      159,
+      160,
+      163
+    ],
+    "avg_hotspot": 4.2,
+    "min_hotspot": 3,
+    "max_hotspot": 6,
+    "union_hotspots_hat": [
+      91,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      111,
+      219,
+      220
+    ],
+    "n_consistent": 3,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.6127920746803284,
+        "total_contacts": 19,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          150,
+          158,
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.6009288430213928,
+        "total_contacts": 25,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          91,
+          111,
+          158,
+          159,
+          160,
+          163
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.598617434501648,
+        "total_contacts": 19,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          111,
+          160,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.5740715861320496,
+        "total_contacts": 18,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          111,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.16203629970550537,
+        "total_contacts": 18,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          219,
+          220,
+          221
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep32s1",
+    "best_model_idx": 2,
+    "best_iptm": 0.49935394525527954,
+    "best_total_contacts": 34,
+    "best_hotspot_contacts": 9,
+    "best_hotspot_pct": 64.28571428571429,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      110,
+      111,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220
+    ],
+    "avg_hotspot": 4.4,
+    "min_hotspot": 0,
+    "max_hotspot": 9,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      160,
+      219
+    ],
+    "n_consistent": 2,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.6138126254081726,
+        "total_contacts": 30,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.46841052174568176,
+        "total_contacts": 26,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          110,
+          150,
+          160,
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.49935394525527954,
+        "total_contacts": 34,
+        "hotspot_contacts": 9,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.187401682138443,
+        "total_contacts": 18,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.18304117023944855,
+        "total_contacts": 28,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep32s2",
+    "best_model_idx": 2,
+    "best_iptm": 0.4580356180667877,
+    "best_total_contacts": 43,
+    "best_hotspot_contacts": 6,
+    "best_hotspot_pct": 42.857142857142854,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      110,
+      111,
+      150,
+      158,
+      160,
+      163
+    ],
+    "avg_hotspot": 2.6,
+    "min_hotspot": 0,
+    "max_hotspot": 6,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220
+    ],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.5333346724510193,
+        "total_contacts": 20,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          150,
+          219,
+          220
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5534026622772217,
+        "total_contacts": 34,
+        "hotspot_contacts": 4,
+        "hat_equiv": [
+          91,
+          159,
+          160,
+          219
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.4580356180667877,
+        "total_contacts": 43,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          110,
+          111,
+          150,
+          158,
+          160,
+          163
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.4067351222038269,
+        "total_contacts": 27,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.29249200224876404,
+        "total_contacts": 26,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep16s5",
+    "best_model_idx": 4,
+    "best_iptm": 0.30078157782554626,
+    "best_total_contacts": 41,
+    "best_hotspot_contacts": 7,
+    "best_hotspot_pct": 50.0,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      160,
+      220
+    ],
+    "avg_hotspot": 3.0,
+    "min_hotspot": 0,
+    "max_hotspot": 7,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      220
+    ],
+    "consistent_hotspots_hat": [
+      111,
+      160
+    ],
+    "n_consistent": 2,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.38839730620384216,
+        "total_contacts": 31,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          111,
+          159,
+          160
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.4375213086605072,
+        "total_contacts": 28,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          111,
+          150,
+          158,
+          159,
+          160
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.13545973598957062,
+        "total_contacts": 40,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 3,
+        "iptm": 0.25993481278419495,
+        "total_contacts": 21,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 4,
+        "iptm": 0.30078157782554626,
+        "total_contacts": 41,
+        "hotspot_contacts": 7,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          160,
+          220
+        ]
+      }
+    ]
+  },
+  {
+    "binder": "pep48s5",
+    "best_model_idx": 3,
+    "best_iptm": 0.43670356273651123,
+    "best_total_contacts": 40,
+    "best_hotspot_contacts": 5,
+    "best_hotspot_pct": 35.714285714285715,
+    "best_verdict": "PARTIAL",
+    "best_hat_equiv": [
+      110,
+      111,
+      150,
+      160,
+      219
+    ],
+    "avg_hotspot": 1.0,
+    "min_hotspot": 0,
+    "max_hotspot": 5,
+    "union_hotspots_hat": [
+      110,
+      111,
+      150,
+      160,
+      219
+    ],
+    "consistent_hotspots_hat": [],
+    "n_consistent": 0,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.34398338198661804,
+        "total_contacts": 16,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 1,
+        "iptm": 0.24502098560333252,
+        "total_contacts": 32,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 2,
+        "iptm": 0.39548760652542114,
+        "total_contacts": 14,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      },
+      {
+        "model": 3,
+        "iptm": 0.43670356273651123,
+        "total_contacts": 40,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          110,
+          111,
+          150,
+          160,
+          219
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.17683002352714539,
+        "total_contacts": 14,
+        "hotspot_contacts": 0,
+        "hat_equiv": []
+      }
+    ]
+  },
+  {
+    "binder": "pep36s1",
+    "best_model_idx": 3,
+    "best_iptm": 0.5867013335227966,
+    "best_total_contacts": 73,
+    "best_hotspot_contacts": 9,
+    "best_hotspot_pct": 64.28571428571429,
+    "best_verdict": "ON-TARGET",
+    "best_hat_equiv": [
+      91,
+      111,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "avg_hotspot": 5.8,
+    "min_hotspot": 3,
+    "max_hotspot": 9,
+    "union_hotspots_hat": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      170,
+      219,
+      220,
+      221
+    ],
+    "consistent_hotspots_hat": [
+      91,
+      111,
+      163,
+      219
+    ],
+    "n_consistent": 4,
+    "all_model_data": [
+      {
+        "model": 0,
+        "iptm": 0.6456088423728943,
+        "total_contacts": 31,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          158,
+          163,
+          219
+        ]
+      },
+      {
+        "model": 1,
+        "iptm": 0.5678139925003052,
+        "total_contacts": 35,
+        "hotspot_contacts": 5,
+        "hat_equiv": [
+          91,
+          110,
+          111,
+          163,
+          219
+        ]
+      },
+      {
+        "model": 2,
+        "iptm": 0.3749765157699585,
+        "total_contacts": 34,
+        "hotspot_contacts": 3,
+        "hat_equiv": [
+          150,
+          170,
+          219
+        ]
+      },
+      {
+        "model": 3,
+        "iptm": 0.5867013335227966,
+        "total_contacts": 73,
+        "hotspot_contacts": 9,
+        "hat_equiv": [
+          91,
+          111,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220,
+          221
+        ]
+      },
+      {
+        "model": 4,
+        "iptm": 0.3588937222957611,
+        "total_contacts": 53,
+        "hotspot_contacts": 6,
+        "hat_equiv": [
+          91,
+          111,
+          150,
+          160,
+          163,
+          219
+        ]
+      }
+    ]
+  }
+]

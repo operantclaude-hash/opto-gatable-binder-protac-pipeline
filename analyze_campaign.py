@@ -79,14 +79,33 @@ def extract_ca_coords(structure, chain_id=None, res_range=None):
 
 
 def superimpose_binder(query_coords, ref_coords):
-    """Superimpose query binder CA onto reference binder CA.
+    """Superimpose query binder CA onto reference binder CA using SVD.
 
-    Returns (rotation, translation) matrices.
+    Returns (rotation, translation) where:
+        transformed = np.dot(query_coords, rotation) + translation
+    minimizes RMSD between transformed query and reference.
     """
-    sup = Superimposer()
     n = min(len(query_coords), len(ref_coords))
-    sup.set(ref_coords[:n], query_coords[:n])
-    return sup.rotran
+    q = query_coords[:n]
+    r = ref_coords[:n]
+
+    # Center both coordinate sets
+    q_center = q.mean(axis=0)
+    r_center = r.mean(axis=0)
+    q_centered = q - q_center
+    r_centered = r - r_center
+
+    # Compute optimal rotation via SVD
+    H = q_centered.T @ r_centered
+    U, S, Vt = np.linalg.svd(H)
+
+    # Handle reflection case
+    d = np.linalg.det(Vt.T @ U.T)
+    sign_matrix = np.diag([1, 1, np.sign(d)])
+    rotation = (Vt.T @ sign_matrix @ U.T).T  # transposed for row-vector convention
+    translation = r_center - q_center @ rotation
+
+    return rotation, translation
 
 
 def apply_transform(coords, rotran):

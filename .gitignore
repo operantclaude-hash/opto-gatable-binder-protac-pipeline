@@ -1,10 +1,20 @@
 __pycache__/
 *.pyc
-campaigns/*/boltz2_results/
-campaigns/*/boltz2_yamls/
-campaigns/*/sweep_volumes/
-campaigns/*/chimerax/
-campaigns/*/analysis/
-campaigns/*/manifest.json
-campaigns/*/run_predictions.sh
 *.cif
+*.npz
+*.npy
+*.log
+nohup.out
+
+# Boltz-2 prediction outputs (large, reproducible)
+**/boltz2_results/
+**/boltz2_yamls/
+**/captrunc_results/
+**/captrunc_yamls/
+**/catcore_results/
+**/catcore_yamls/
+**/sweep_volumes/
+**/chimerax/
+**/analysis/
+run_*predictions*.sh
+*_prediction_log.txt

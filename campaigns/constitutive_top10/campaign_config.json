@@ -1,0 +1,114 @@
+{
+  "campaign_name": "constitutive_top10",
+  "target": {
+    "name": "p300_HAT",
+    "sequence": "KFSAKRLPSTRLGTFLENRVNDFLRRQNHPESGEVTVRVVHASDKTVEVKPGMKARFVDSGEMAESFPYRTKALFAFEEIDGVDLCFFGMHVQEYGSDCPPPNQRRVYISYLDSVHFFRPKCLRTAVYHEILIGYLEYVKKLGYTTGHIWACPPSEGDDYIFHCHPPDQKIPKPKRLQEWYKKMLDKAVSERIVHDYKDIFKQATEDRLTSAKELPYFEGDFWPNVLEESIKESQKLYATMEKHKEVFFVIRLIAGPAANSLPPIVDPDPLIPCDLMDGRDAFLTLARDRHLEFSSLRRAQWSTGCMLVELHTQSQD",
+    "hotspot_residues_1idx": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      170,
+      181,
+      185,
+      219,
+      220,
+      221
+    ],
+    "pdb_path": null
+  },
+  "binders": [
+    {
+      "name": "pep4s2_50aa",
+      "sequence": "SPEEEILEESEAGLKRAEEWGKVAEACRKAAAAGDAAAVAACQAQLDRFG",
+      "length": 50,
+      "iptm": 0.9,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep21s5_20aa",
+      "sequence": "SIGSSSSGASGSLGAVTAED",
+      "length": 20,
+      "iptm": 0.91,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep13s3_20aa",
+      "sequence": "AAQSGFSPASEAAAAELLAA",
+      "length": 20,
+      "iptm": 0.94,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep32s1_20aa",
+      "sequence": "MGPQVTRENAARAAARVAAR",
+      "length": 20,
+      "iptm": 0.94,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep30s5_20aa",
+      "sequence": "APPGKTAAEDAARRAAAAAA",
+      "length": 20,
+      "iptm": 0.92,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep10s5_20aa",
+      "sequence": "FGSVTGSGAADAVDDALAAA",
+      "length": 20,
+      "iptm": 0.94,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep24s3_20aa",
+      "sequence": "SLAEAERARQRARREAAHAA",
+      "length": 20,
+      "iptm": 0.91,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "nb153s2_120aa",
+      "sequence": "SLRERAAANSKEAAAQTVVGAARLRAAVDAVDPAVADAVAAQYTANRNTLNAANAALAAIAAESLDRIKATYEAEGSVAALLAAEEAEGRRQQAAVLAAREAASAASRAIGAIVAWLRAQ",
+      "length": 120,
+      "iptm": 0.88,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "nb62s3_120aa",
+      "sequence": "DLAAAALEVCEETGAQSRAVAAANQAAYAAQIAALAARIAALRAEAAARAAELAARAEATGSEEVRRERERAEAAAAAELAALEAQRAAAERNRAATAERLAANEEGLAAERARLEAEAA",
+      "length": 120,
+      "iptm": 0.85,
+      "reference_complex_cif": null
+    },
+    {
+      "name": "pep25s1_30aa",
+      "sequence": "AKGVANSTTDAAANAARIGELAAARLAAGL",
+      "length": 30,
+      "iptm": 0.93,
+      "reference_complex_cif": null
+    }
+  ],
+  "scaffold": {
+    "architecture": "C",
+    "lov2_dark_seq": "LERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAA",
+    "lov2_lit_seq": "LERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREG",
+    "cap_seq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "cap_name": "UBQ",
+    "binder_lov2_spacer": "GGSGGS",
+    "linkers": [
+      "E2pppE2"
+    ],
+    "dark_cone_half_angle": 25.0,
+    "lit_cone_half_angle": 60.0
+  },
+  "prediction": {
+    "diffusion_samples": 5,
+    "recycling_steps": 3,
+    "model": "boltz2"
+  }
+}

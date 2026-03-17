@@ -1,0 +1,59 @@
+{
+  "both_on_target": [
+    "pep13s3",
+    "pep30s5",
+    "pep25s1",
+    "pep21s5",
+    "pep21s2",
+    "pep15s3",
+    "pep10s5",
+    "pep24s3",
+    "pep16s5",
+    "pep48s5",
+    "pep36s1"
+  ],
+  "hat_only": [
+    "pep29s5"
+  ],
+  "catcore_only": [
+    "pep17s4",
+    "pep32s1",
+    "pep32s2"
+  ],
+  "neither": [
+    "pep4s2"
+  ],
+  "catcore_hotspots_1idx": [
+    332,
+    351,
+    352,
+    391,
+    399,
+    400,
+    401,
+    404,
+    411,
+    422,
+    426,
+    460,
+    461,
+    462
+  ],
+  "hat_hotspots_1idx": [
+    91,
+    110,
+    111,
+    150,
+    158,
+    159,
+    160,
+    163,
+    170,
+    181,
+    185,
+    219,
+    220,
+    221
+  ],
+  "mapping": "catcore_1idx = hat_1idx + 241 (pre-gap)"
+}

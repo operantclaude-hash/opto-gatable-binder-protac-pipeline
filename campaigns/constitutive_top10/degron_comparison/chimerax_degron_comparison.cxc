@@ -1,0 +1,156 @@
+# ChimeraX script: N-term vs C-term degron placement comparison
+# Dual-gated optogenetic PROTAC — pep4s2 (50aa binder) + TRIM21 + VVD
+#
+# Layout: 4 panels arranged horizontally
+#   #1 = N-term dark + target    #2 = N-term lit + target
+#   #3 = C-term dark + target    #4 = C-term lit + target
+#
+# Color scheme:
+#   gold       = binder (50aa)
+#   tomato     = LOV2 + linker + spacer (dark scaffold)
+#   forestgreen = LOV2 + linker + spacer (lit scaffold)
+#   cornflowerblue = target (p300 HAT)
+#   mediumpurple = E3 ligase (TRIM21 RBCC)
+#   orange     = VVD dimerizer
+#   gray       = GS flexible linkers
+#   salmon     = cap (UBQ, dark)
+#   lightgreen = cap (UBQ, lit)
+
+# ===== Load structures =====
+open boltz2_results/degron_nterm_dark_target/boltz_results_degron_nterm_dark_target/predictions/degron_nterm_dark_target/degron_nterm_dark_target_model_0.cif
+open boltz2_results/degron_nterm_lit_target/boltz_results_degron_nterm_lit_target/predictions/degron_nterm_lit_target/degron_nterm_lit_target_model_0.cif
+open boltz2_results/degron_cterm_dark_target/boltz_results_degron_cterm_dark_target/predictions/degron_cterm_dark_target/degron_cterm_dark_target_model_0.cif
+open boltz2_results/degron_cterm_lit_target/boltz_results_degron_cterm_lit_target/predictions/degron_cterm_lit_target/degron_cterm_lit_target_model_0.cif
+
+# ===== Background =====
+set bgColor white
+
+# ===== Show cartoons only =====
+hide all
+show cartoons
+
+# ===== Color target (chain B) — cornflowerblue in all models =====
+color #1/B cornflowerblue
+color #2/B cornflowerblue
+color #3/B cornflowerblue
+color #4/B cornflowerblue
+
+# ===== N-TERM DARK (#1): chain A residues =====
+# E3(TRIM21):  1-236    mediumpurple
+# GS1:         237-251  gray
+# VVD:         252-409  orange
+# GS2:         410-424  gray
+# Binder:      425-474  gold
+# Spacer:      475-480  gray
+# LOV2:        481-616  tomato
+# Linker:      617-639  tomato
+# Cap(UBQ):    640-715  salmon
+
+color #1/A:1-236 mediumpurple
+color #1/A:237-251 gray
+color #1/A:252-409 orange
+color #1/A:410-424 gray
+color #1/A:425-474 gold
+color #1/A:475-480 gray
+color #1/A:481-639 tomato
+color #1/A:640-715 salmon
+
+# ===== N-TERM LIT (#2): chain A residues =====
+# E3(TRIM21):  1-236    mediumpurple
+# GS1:         237-251  gray
+# VVD:         252-409  orange
+# GS2:         410-424  gray
+# Binder:      425-474  gold
+# Spacer:      475-480  gray
+# LOV2:        481-601  forestgreen
+# Linker:      602-624  forestgreen
+# Cap(UBQ):    625-700  lightgreen
+
+color #2/A:1-236 mediumpurple
+color #2/A:237-251 gray
+color #2/A:252-409 orange
+color #2/A:410-424 gray
+color #2/A:425-474 gold
+color #2/A:475-480 gray
+color #2/A:481-624 forestgreen
+color #2/A:625-700 lightgreen
+
+# ===== C-TERM DARK (#3): chain A residues =====
+# Binder:      1-50     gold
+# Spacer:      51-56    gray
+# LOV2:        57-192   tomato
+# Linker:      193-215  tomato
+# Cap(UBQ):    216-291  salmon
+# GS2:         292-306  gray
+# VVD:         307-464  orange
+# GS1:         465-479  gray
+# E3(TRIM21):  480-715  mediumpurple
+
+color #3/A:1-50 gold
+color #3/A:51-56 gray
+color #3/A:57-215 tomato
+color #3/A:216-291 salmon
+color #3/A:292-306 gray
+color #3/A:307-464 orange
+color #3/A:465-479 gray
+color #3/A:480-715 mediumpurple
+
+# ===== C-TERM LIT (#4): chain A residues =====
+# Binder:      1-50     gold
+# Spacer:      51-56    gray
+# LOV2:        57-177   forestgreen
+# Linker:      178-200  forestgreen
+# Cap(UBQ):    201-276  lightgreen
+# GS2:         277-291  gray
+# VVD:         292-449  orange
+# GS1:         450-464  gray
+# E3(TRIM21):  465-700  mediumpurple
+
+color #4/A:1-50 gold
+color #4/A:51-56 gray
+color #4/A:57-200 forestgreen
+color #4/A:201-276 lightgreen
+color #4/A:277-291 gray
+color #4/A:292-449 orange
+color #4/A:450-464 gray
+color #4/A:465-700 mediumpurple
+
+# ===== Make target surface transparent =====
+surface #1/B #2/B #3/B #4/B
+transparency #1/B 70
+transparency #2/B 70
+transparency #3/B 70
+transparency #4/B 70
+
+# ===== Arrange models side-by-side =====
+# Align all on the binder (gold) to target (blue) interface
+# N-term: binder is at A:425-474, C-term: binder is at A:1-50
+matchmaker #2/B to #1/B
+matchmaker #3/B to #1/B
+matchmaker #4/B to #1/B
+
+# Spread models horizontally
+move x -225 models #1
+move x -75 models #2
+move x 75 models #3
+move x 225 models #4
+
+# ===== Labels =====
+2dlabels create label1 text "N-term DARK" xpos 0.06 ypos 0.95 size 16 bold true color tomato
+2dlabels create label2 text "N-term LIT" xpos 0.28 ypos 0.95 size 16 bold true color forestgreen
+2dlabels create label3 text "C-term DARK" xpos 0.52 ypos 0.95 size 16 bold true color tomato
+2dlabels create label4 text "C-term LIT" xpos 0.76 ypos 0.95 size 16 bold true color forestgreen
+
+# Architecture labels
+2dlabels create arch1 text "[E3]-[GS]-[VVD]-[GS]-[Binder]-[LOV2]-[Cap]" xpos 0.02 ypos 0.91 size 10 color black
+2dlabels create arch2 text "[E3]-[GS]-[VVD]-[GS]-[Binder]-[LOV2]-[Cap]" xpos 0.24 ypos 0.91 size 10 color black
+2dlabels create arch3 text "[Binder]-[LOV2]-[Cap]-[GS]-[VVD]-[GS]-[E3]" xpos 0.48 ypos 0.91 size 10 color black
+2dlabels create arch4 text "[Binder]-[LOV2]-[Cap]-[GS]-[VVD]-[GS]-[E3]" xpos 0.72 ypos 0.91 size 10 color black
+
+# Legend
+2dlabels create leg1 text "gold=binder  purple=E3(TRIM21)  orange=VVD  blue=target(HAT)" xpos 0.15 ypos 0.03 size 12 color black
+2dlabels create leg2 text "red=dark scaffold  green=lit scaffold  gray=GS linkers" xpos 0.22 ypos 0.00 size 12 color black
+
+# ===== Lighting and view =====
+lighting soft
+view

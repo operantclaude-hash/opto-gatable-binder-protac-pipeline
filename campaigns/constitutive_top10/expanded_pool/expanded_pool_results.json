@@ -1,0 +1,1481 @@
+[
+  {
+    "binder": "pep9s5",
+    "binder_length": 20,
+    "screen_iptm": 0.8821,
+    "screen_hotspots": 11,
+    "best_iptm": 0.7508774399757385,
+    "mean_iptm": 0.5266700148582458,
+    "std_iptm": 0.13431998476458487,
+    "best_hotspots": 10,
+    "mean_hotspots": 8.0,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 10,
+    "consistent_hotspots": [
+      91,
+      110,
+      111,
+      150,
+      158,
+      159,
+      160,
+      163,
+      219,
+      220
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 43.875479999999996,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.5532467365264893,
+        "total_contacts": 21,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 41.0034
+      },
+      {
+        "model": "1",
+        "iptm": 0.7508774399757385,
+        "total_contacts": 21,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 49.98625
+      },
+      {
+        "model": "2",
+        "iptm": 0.5532467365264893,
+        "total_contacts": 27,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 48.16335
+      },
+      {
+        "model": "3",
+        "iptm": 0.39360883831977844,
+        "total_contacts": 24,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 39.5493
+      },
+      {
+        "model": "4",
+        "iptm": 0.38237032294273376,
+        "total_contacts": 33,
+        "hotspot_contacts": 10,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          221
+        ],
+        "binder_plddt": 40.6751
+      }
+    ]
+  },
+  {
+    "binder": "pep29s4",
+    "binder_length": 50,
+    "screen_iptm": 0.8815,
+    "screen_hotspots": 11,
+    "best_iptm": 0.5672414898872375,
+    "mean_iptm": 0.5184993326663971,
+    "std_iptm": 0.0597201880677335,
+    "best_hotspots": 10,
+    "mean_hotspots": 7.6,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 9,
+    "consistent_hotspots": [
+      91,
+      111,
+      150,
+      158,
+      160,
+      163,
+      219,
+      220,
+      221
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 46.547411999999994,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.5672414898872375,
+        "total_contacts": 45,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          158,
+          163,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 45.65998
+      },
+      {
+        "model": "1",
+        "iptm": 0.44273844361305237,
+        "total_contacts": 40,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 51.857519999999994
+      },
+      {
+        "model": "2",
+        "iptm": 0.5672414898872375,
+        "total_contacts": 36,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 49.27106
+      },
+      {
+        "model": "3",
+        "iptm": 0.44803375005722046,
+        "total_contacts": 51,
+        "hotspot_contacts": 10,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          160,
+          163,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 43.248380000000004
+      },
+      {
+        "model": "4",
+        "iptm": 0.5672414898872375,
+        "total_contacts": 35,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          91,
+          111,
+          163
+        ],
+        "binder_plddt": 42.700120000000005
+      }
+    ]
+  },
+  {
+    "binder": "pep11s1",
+    "binder_length": 20,
+    "screen_iptm": 0.8857,
+    "screen_hotspots": 11,
+    "best_iptm": 0.713371992111206,
+    "mean_iptm": 0.6770439505577087,
+    "std_iptm": 0.05731018876652845,
+    "best_hotspots": 8,
+    "mean_hotspots": 7.2,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 7,
+    "consistent_hotspots": [
+      91,
+      110,
+      111,
+      158,
+      160,
+      163,
+      219
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 45.337669999999996,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.713371992111206,
+        "total_contacts": 21,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 45.29625
+      },
+      {
+        "model": "1",
+        "iptm": 0.713371992111206,
+        "total_contacts": 24,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          158,
+          159,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 54.175599999999996
+      },
+      {
+        "model": "2",
+        "iptm": 0.713371992111206,
+        "total_contacts": 23,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          160,
+          219,
+          220
+        ],
+        "binder_plddt": 37.31175
+      },
+      {
+        "model": "3",
+        "iptm": 0.5654364824295044,
+        "total_contacts": 28,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          111,
+          158,
+          159,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 50.96275000000001
+      },
+      {
+        "model": "4",
+        "iptm": 0.6796672940254211,
+        "total_contacts": 22,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          163,
+          220
+        ],
+        "binder_plddt": 38.942
+      }
+    ]
+  },
+  {
+    "binder": "pep37s3",
+    "binder_length": 20,
+    "screen_iptm": 0.8666,
+    "screen_hotspots": 11,
+    "best_iptm": 0.6503078937530518,
+    "mean_iptm": 0.6138007998466491,
+    "std_iptm": 0.04673633189998618,
+    "best_hotspots": 8,
+    "mean_hotspots": 5.8,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 7,
+    "consistent_hotspots": [
+      111,
+      150,
+      158,
+      160,
+      219,
+      220,
+      221
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 37.85618,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.6324461102485657,
+        "total_contacts": 19,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          150,
+          158,
+          160,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 37.89005
+      },
+      {
+        "model": "1",
+        "iptm": 0.6503078937530518,
+        "total_contacts": 20,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 38.4605
+      },
+      {
+        "model": "2",
+        "iptm": 0.6324461102485657,
+        "total_contacts": 26,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 44.41845
+      },
+      {
+        "model": "3",
+        "iptm": 0.6324461102485657,
+        "total_contacts": 22,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          111,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 33.664049999999996
+      },
+      {
+        "model": "4",
+        "iptm": 0.5213577747344971,
+        "total_contacts": 23,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          160,
+          163,
+          220,
+          221
+        ],
+        "binder_plddt": 34.84785
+      }
+    ]
+  },
+  {
+    "binder": "pep30s4",
+    "binder_length": 30,
+    "screen_iptm": 0.8711,
+    "screen_hotspots": 10,
+    "best_iptm": 0.8316588401794434,
+    "mean_iptm": 0.7204053461551666,
+    "std_iptm": 0.19314046915703978,
+    "best_hotspots": 8,
+    "mean_hotspots": 6.2,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 6,
+    "consistent_hotspots": [
+      91,
+      111,
+      150,
+      160,
+      163,
+      219
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 45.73361333333334,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.8316588401794434,
+        "total_contacts": 20,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          111,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 47.4827
+      },
+      {
+        "model": "1",
+        "iptm": 0.7699577212333679,
+        "total_contacts": 33,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 60.783699999999996
+      },
+      {
+        "model": "2",
+        "iptm": 0.33709248900413513,
+        "total_contacts": 27,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          160,
+          220,
+          221
+        ],
+        "binder_plddt": 38.526399999999995
+      },
+      {
+        "model": "3",
+        "iptm": 0.8316588401794434,
+        "total_contacts": 31,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 42.044566666666675
+      },
+      {
+        "model": "4",
+        "iptm": 0.8316588401794434,
+        "total_contacts": 38,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163
+        ],
+        "binder_plddt": 39.8307
+      }
+    ]
+  },
+  {
+    "binder": "pep19s2",
+    "binder_length": 20,
+    "screen_iptm": 0.865,
+    "screen_hotspots": 11,
+    "best_iptm": 0.6626320481300354,
+    "mean_iptm": 0.5893260300159454,
+    "std_iptm": 0.09972146960465976,
+    "best_hotspots": 7,
+    "mean_hotspots": 5.6,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 6,
+    "consistent_hotspots": [
+      111,
+      150,
+      159,
+      160,
+      163,
+      220
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 31.54068,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.6626320481300354,
+        "total_contacts": 30,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163
+        ],
+        "binder_plddt": 34.809149999999995
+      },
+      {
+        "model": "1",
+        "iptm": 0.6626320481300354,
+        "total_contacts": 24,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          150,
+          220
+        ],
+        "binder_plddt": 28.190350000000002
+      },
+      {
+        "model": "2",
+        "iptm": 0.6626320481300354,
+        "total_contacts": 34,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          111,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 28.78605
+      },
+      {
+        "model": "3",
+        "iptm": 0.5479912161827087,
+        "total_contacts": 22,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          160,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 33.64215
+      },
+      {
+        "model": "4",
+        "iptm": 0.41074278950691223,
+        "total_contacts": 26,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          159,
+          160
+        ],
+        "binder_plddt": 32.27569999999999
+      }
+    ]
+  },
+  {
+    "binder": "pep16s4",
+    "binder_length": 30,
+    "screen_iptm": 0.8635,
+    "screen_hotspots": 11,
+    "best_iptm": 0.5569424033164978,
+    "mean_iptm": 0.5205527663230896,
+    "std_iptm": 0.018194818496704103,
+    "best_hotspots": 8,
+    "mean_hotspots": 5.0,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 6,
+    "consistent_hotspots": [
+      111,
+      150,
+      160,
+      219,
+      220,
+      221
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 51.56591999999999,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.5114553570747375,
+        "total_contacts": 31,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          150,
+          160,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 48.7356
+      },
+      {
+        "model": "1",
+        "iptm": 0.5114553570747375,
+        "total_contacts": 34,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          111,
+          160,
+          219,
+          220
+        ],
+        "binder_plddt": 44.08846666666666
+      },
+      {
+        "model": "2",
+        "iptm": 0.5569424033164978,
+        "total_contacts": 39,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          220,
+          221
+        ],
+        "binder_plddt": 60.60989999999999
+      },
+      {
+        "model": "3",
+        "iptm": 0.5114553570747375,
+        "total_contacts": 29,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          219,
+          220
+        ],
+        "binder_plddt": 53.094566666666665
+      },
+      {
+        "model": "4",
+        "iptm": 0.5114553570747375,
+        "total_contacts": 23,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          150,
+          220,
+          221
+        ],
+        "binder_plddt": 51.30106666666666
+      }
+    ]
+  },
+  {
+    "binder": "pep6s1",
+    "binder_length": 30,
+    "screen_iptm": 0.9049,
+    "screen_hotspots": 12,
+    "best_iptm": 0.46134835481643677,
+    "mean_iptm": 0.3645277827978134,
+    "std_iptm": 0.11910727639384792,
+    "best_hotspots": 7,
+    "mean_hotspots": 5.0,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 5,
+    "consistent_hotspots": [
+      110,
+      111,
+      150,
+      160,
+      219
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 46.64062,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.46134835481643677,
+        "total_contacts": 35,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          160,
+          220,
+          221
+        ],
+        "binder_plddt": 53.853533333333324
+      },
+      {
+        "model": "1",
+        "iptm": 0.46134835481643677,
+        "total_contacts": 33,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          111,
+          163
+        ],
+        "binder_plddt": 45.31759999999999
+      },
+      {
+        "model": "2",
+        "iptm": 0.2369893342256546,
+        "total_contacts": 27,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          160,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 47.65936666666666
+      },
+      {
+        "model": "3",
+        "iptm": 0.46134835481643677,
+        "total_contacts": 34,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          219
+        ],
+        "binder_plddt": 44.0153
+      },
+      {
+        "model": "4",
+        "iptm": 0.20160451531410217,
+        "total_contacts": 38,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          111,
+          219
+        ],
+        "binder_plddt": 42.3573
+      }
+    ]
+  },
+  {
+    "binder": "pep34s1",
+    "binder_length": 50,
+    "screen_iptm": 0.8687,
+    "screen_hotspots": 10,
+    "best_iptm": 0.7621662020683289,
+    "mean_iptm": 0.7270253658294678,
+    "std_iptm": 0.07028167247772217,
+    "best_hotspots": 7,
+    "mean_hotspots": 3.8,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 4,
+    "consistent_hotspots": [
+      91,
+      111,
+      163,
+      170
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 51.130272,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.7621662020683289,
+        "total_contacts": 41,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          91,
+          111,
+          163,
+          170
+        ],
+        "binder_plddt": 58.07606
+      },
+      {
+        "model": "1",
+        "iptm": 0.7621662020683289,
+        "total_contacts": 16,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "binder_plddt": 48.9666
+      },
+      {
+        "model": "2",
+        "iptm": 0.5864620208740234,
+        "total_contacts": 40,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          163,
+          170,
+          219,
+          220
+        ],
+        "binder_plddt": 50.69831999999999
+      },
+      {
+        "model": "3",
+        "iptm": 0.7621662020683289,
+        "total_contacts": 45,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          163,
+          219
+        ],
+        "binder_plddt": 46.59458000000001
+      },
+      {
+        "model": "4",
+        "iptm": 0.7621662020683289,
+        "total_contacts": 31,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          163,
+          170
+        ],
+        "binder_plddt": 51.31579999999999
+      }
+    ]
+  },
+  {
+    "binder": "pep43s1",
+    "binder_length": 20,
+    "screen_iptm": 0.8591,
+    "screen_hotspots": 12,
+    "best_iptm": 0.674363374710083,
+    "mean_iptm": 0.674363374710083,
+    "std_iptm": 0.0,
+    "best_hotspots": 8,
+    "mean_hotspots": 4.6,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 4,
+    "consistent_hotspots": [
+      111,
+      150,
+      219,
+      220
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 36.36694,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.674363374710083,
+        "total_contacts": 23,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          150,
+          160,
+          219,
+          220
+        ],
+        "binder_plddt": 34.95655000000001
+      },
+      {
+        "model": "1",
+        "iptm": 0.674363374710083,
+        "total_contacts": 28,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          170,
+          219,
+          220
+        ],
+        "binder_plddt": 36.100049999999996
+      },
+      {
+        "model": "2",
+        "iptm": 0.674363374710083,
+        "total_contacts": 28,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          219
+        ],
+        "binder_plddt": 43.48655
+      },
+      {
+        "model": "3",
+        "iptm": 0.674363374710083,
+        "total_contacts": 19,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          219,
+          220,
+          221
+        ],
+        "binder_plddt": 34.32310000000001
+      },
+      {
+        "model": "4",
+        "iptm": 0.674363374710083,
+        "total_contacts": 23,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          150,
+          163,
+          219,
+          220
+        ],
+        "binder_plddt": 32.968450000000004
+      }
+    ]
+  },
+  {
+    "binder": "pep41s5",
+    "binder_length": 20,
+    "screen_iptm": 0.8689,
+    "screen_hotspots": 11,
+    "best_iptm": 0.6308446526527405,
+    "mean_iptm": 0.5421394944190979,
+    "std_iptm": 0.04435257911682129,
+    "best_hotspots": 7,
+    "mean_hotspots": 5.6,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 4,
+    "consistent_hotspots": [
+      111,
+      150,
+      160,
+      163
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 36.92767,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.5199632048606873,
+        "total_contacts": 32,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          160,
+          170,
+          181
+        ],
+        "binder_plddt": 38.0053
+      },
+      {
+        "model": "1",
+        "iptm": 0.5199632048606873,
+        "total_contacts": 26,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163
+        ],
+        "binder_plddt": 36.5028
+      },
+      {
+        "model": "2",
+        "iptm": 0.5199632048606873,
+        "total_contacts": 20,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          111,
+          150,
+          159,
+          160,
+          163,
+          220,
+          221
+        ],
+        "binder_plddt": 33.070800000000006
+      },
+      {
+        "model": "3",
+        "iptm": 0.6308446526527405,
+        "total_contacts": 24,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          111,
+          158,
+          160
+        ],
+        "binder_plddt": 45.361200000000004
+      },
+      {
+        "model": "4",
+        "iptm": 0.5199632048606873,
+        "total_contacts": 22,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          160,
+          163,
+          220,
+          221
+        ],
+        "binder_plddt": 31.69825
+      }
+    ]
+  },
+  {
+    "binder": "pep40s3",
+    "binder_length": 40,
+    "screen_iptm": 0.8624,
+    "screen_hotspots": 11,
+    "best_iptm": 0.7517046928405762,
+    "mean_iptm": 0.6256271302700043,
+    "std_iptm": 0.1841817710850868,
+    "best_hotspots": 6,
+    "mean_hotspots": 3.6,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 3,
+    "consistent_hotspots": [
+      111,
+      158,
+      163
+    ],
+    "verdict": "PARTIAL",
+    "mean_binder_plddt": 57.86039000000001,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.7517046928405762,
+        "total_contacts": 32,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          111,
+          158,
+          163,
+          219,
+          221
+        ],
+        "binder_plddt": 67.43597500000001
+      },
+      {
+        "model": "1",
+        "iptm": 0.5952526926994324,
+        "total_contacts": 34,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          111,
+          158,
+          163,
+          219
+        ],
+        "binder_plddt": 60.983000000000004
+      },
+      {
+        "model": "2",
+        "iptm": 0.2777688801288605,
+        "total_contacts": 22,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          158,
+          159,
+          160,
+          163
+        ],
+        "binder_plddt": 53.694224999999996
+      },
+      {
+        "model": "3",
+        "iptm": 0.7517046928405762,
+        "total_contacts": 25,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "binder_plddt": 50.0982
+      },
+      {
+        "model": "4",
+        "iptm": 0.7517046928405762,
+        "total_contacts": 29,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          111,
+          163
+        ],
+        "binder_plddt": 57.09055000000001
+      }
+    ]
+  },
+  {
+    "binder": "pep4s4",
+    "binder_length": 20,
+    "screen_iptm": 0.8765,
+    "screen_hotspots": 11,
+    "best_iptm": 0.7442927360534668,
+    "mean_iptm": 0.476349413394928,
+    "std_iptm": 0.1343058183294755,
+    "best_hotspots": 5,
+    "mean_hotspots": 3.0,
+    "consistency": 1.0,
+    "n_consistent_hotspots": 2,
+    "consistent_hotspots": [
+      150,
+      160
+    ],
+    "verdict": "PARTIAL",
+    "mean_binder_plddt": 52.56040999999999,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.4154752790927887,
+        "total_contacts": 18,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          160,
+          220,
+          221
+        ],
+        "binder_plddt": 47.158
+      },
+      {
+        "model": "1",
+        "iptm": 0.7442927360534668,
+        "total_contacts": 19,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          150,
+          160,
+          219,
+          220
+        ],
+        "binder_plddt": 57.867999999999995
+      },
+      {
+        "model": "2",
+        "iptm": 0.4154752790927887,
+        "total_contacts": 23,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          150,
+          160
+        ],
+        "binder_plddt": 48.59929999999999
+      },
+      {
+        "model": "3",
+        "iptm": 0.391028493642807,
+        "total_contacts": 18,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          150
+        ],
+        "binder_plddt": 51.78175
+      },
+      {
+        "model": "4",
+        "iptm": 0.4154752790927887,
+        "total_contacts": 21,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          111,
+          150,
+          163
+        ],
+        "binder_plddt": 57.395
+      }
+    ]
+  },
+  {
+    "binder": "pep46s3",
+    "binder_length": 30,
+    "screen_iptm": 0.8673,
+    "screen_hotspots": 12,
+    "best_iptm": 0.7034241557121277,
+    "mean_iptm": 0.6214590966701508,
+    "std_iptm": 0.1440657387747667,
+    "best_hotspots": 5,
+    "mean_hotspots": 2.4,
+    "consistency": 0.8,
+    "n_consistent_hotspots": 1,
+    "consistent_hotspots": [
+      163
+    ],
+    "verdict": "PARTIAL",
+    "mean_binder_plddt": 45.64414,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.7034241557121277,
+        "total_contacts": 26,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          91,
+          111,
+          163,
+          170
+        ],
+        "binder_plddt": 52.19066666666667
+      },
+      {
+        "model": "1",
+        "iptm": 0.6618939638137817,
+        "total_contacts": 42,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          163,
+          219
+        ],
+        "binder_plddt": 46.88446666666667
+      },
+      {
+        "model": "2",
+        "iptm": 0.335129052400589,
+        "total_contacts": 20,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "binder_plddt": 43.10363333333333
+      },
+      {
+        "model": "3",
+        "iptm": 0.7034241557121277,
+        "total_contacts": 23,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          219
+        ],
+        "binder_plddt": 46.50873333333333
+      },
+      {
+        "model": "4",
+        "iptm": 0.7034241557121277,
+        "total_contacts": 23,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          158,
+          163
+        ],
+        "binder_plddt": 39.5332
+      }
+    ]
+  },
+  {
+    "binder": "pep49s5",
+    "binder_length": 30,
+    "screen_iptm": 0.8848,
+    "screen_hotspots": 11,
+    "best_iptm": 0.5364053845405579,
+    "mean_iptm": 0.49131909012794495,
+    "std_iptm": 0.041234930462172255,
+    "best_hotspots": 1,
+    "mean_hotspots": 0.6,
+    "consistency": 0.6,
+    "n_consistent_hotspots": 1,
+    "consistent_hotspots": [
+      170
+    ],
+    "verdict": "MARGINAL",
+    "mean_binder_plddt": 45.8584,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.502334713935852,
+        "total_contacts": 12,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "binder_plddt": 48.4137
+      },
+      {
+        "model": "1",
+        "iptm": 0.5364053845405579,
+        "total_contacts": 24,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "binder_plddt": 38.14073333333334
+      },
+      {
+        "model": "2",
+        "iptm": 0.4131859242916107,
+        "total_contacts": 15,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "binder_plddt": 49.16823333333333
+      },
+      {
+        "model": "3",
+        "iptm": 0.502334713935852,
+        "total_contacts": 23,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "binder_plddt": 45.4831
+      },
+      {
+        "model": "4",
+        "iptm": 0.502334713935852,
+        "total_contacts": 14,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "binder_plddt": 48.08623333333333
+      }
+    ]
+  },
+  {
+    "binder": "pep14s4",
+    "binder_length": 20,
+    "screen_iptm": 0.8583,
+    "screen_hotspots": 10,
+    "best_iptm": 0.4535672068595886,
+    "mean_iptm": 0.4085528522729874,
+    "std_iptm": 0.09002870917320252,
+    "best_hotspots": 7,
+    "mean_hotspots": 2.8,
+    "consistency": 0.6,
+    "n_consistent_hotspots": 1,
+    "consistent_hotspots": [
+      163
+    ],
+    "verdict": "ON-TARGET",
+    "mean_binder_plddt": 42.16932,
+    "per_model": [
+      {
+        "model": "0",
+        "iptm": 0.4535672068595886,
+        "total_contacts": 20,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          110,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219
+        ],
+        "binder_plddt": 42.82214999999999
+      },
+      {
+        "model": "1",
+        "iptm": 0.4535672068595886,
+        "total_contacts": 9,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "binder_plddt": 43.8502
+      },
+      {
+        "model": "2",
+        "iptm": 0.4535672068595886,
+        "total_contacts": 15,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          163,
+          219
+        ],
+        "binder_plddt": 40.642250000000004
+      },
+      {
+        "model": "3",
+        "iptm": 0.22849543392658234,
+        "total_contacts": 11,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "binder_plddt": 40.773700000000005
+      },
+      {
+        "model": "4",
+        "iptm": 0.4535672068595886,
+        "total_contacts": 21,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          158,
+          159,
+          160,
+          163,
+          220
+        ],
+        "binder_plddt": 42.7583
+      }
+    ]
+  }
+]

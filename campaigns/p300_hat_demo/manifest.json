@@ -1,0 +1,2162 @@
+[
+  {
+    "construct_name": "pep13s3_E2ppE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE2",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAK",
+    "linker_length": 22,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 260,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        184
+      ],
+      "cap": [
+        184,
+        260
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2ppE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2ppE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE2",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAK",
+    "linker_length": 22,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 245,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        169
+      ],
+      "cap": [
+        169,
+        245
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2ppE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2pppE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2pppE2",
+    "linker_seq": "EAAAKEAAAKPPPEAAAKEAAAK",
+    "linker_length": 23,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 261,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        185
+      ],
+      "cap": [
+        185,
+        261
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2pppE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 3,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2pppE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2pppE2",
+    "linker_seq": "EAAAKEAAAKPPPEAAAKEAAAK",
+    "linker_length": 23,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 246,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        170
+      ],
+      "cap": [
+        170,
+        246
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2pppE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 3,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2dpgnE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE2",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 262,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        186
+      ],
+      "cap": [
+        186,
+        262
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2dpgnE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2dpgnE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE2",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 247,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        171
+      ],
+      "cap": [
+        171,
+        247
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2dpgnE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2npgdE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2npgdE2",
+    "linker_seq": "EAAAKEAAAKNPGDEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 262,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKNPGDEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        186
+      ],
+      "cap": [
+        186,
+        262
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2npgdE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2npgdE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2npgdE2",
+    "linker_seq": "EAAAKEAAAKNPGDEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 247,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKNPGDEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        171
+      ],
+      "cap": [
+        171,
+        247
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2npgdE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2gpngE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2gpngE2",
+    "linker_seq": "EAAAKEAAAKGPNGEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 262,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKGPNGEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        186
+      ],
+      "cap": [
+        186,
+        262
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2gpngE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2gpngE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2gpngE2",
+    "linker_seq": "EAAAKEAAAKGPNGEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 247,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKGPNGEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        171
+      ],
+      "cap": [
+        171,
+        247
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2gpngE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E3dpgnE2_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E3dpgnE2",
+    "linker_seq": "EAAAKEAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 267,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        191
+      ],
+      "cap": [
+        191,
+        267
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E3dpgnE2_dark.yaml",
+    "pre_helix": 15,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E3dpgnE2_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E3dpgnE2",
+    "linker_seq": "EAAAKEAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 252,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        176
+      ],
+      "cap": [
+        176,
+        252
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E3dpgnE2_lit.yaml",
+    "pre_helix": 15,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2dpgnE3_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE3",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 267,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKDPGNEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        191
+      ],
+      "cap": [
+        191,
+        267
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2dpgnE3_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2dpgnE3_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE3",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 252,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKDPGNEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        176
+      ],
+      "cap": [
+        176,
+        252
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2dpgnE3_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2ppE3_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE3",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAKEAAAK",
+    "linker_length": 27,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 265,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        189
+      ],
+      "cap": [
+        189,
+        265
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2ppE3_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_E2ppE3_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE3",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAKEAAAK",
+    "linker_length": 27,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 250,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        174
+      ],
+      "cap": [
+        174,
+        250
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_E2ppE3_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "pep13s3_EP4_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EP4",
+    "linker_seq": "EAAAKPEAAAKPEAAAKPEAAAKP",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 262,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKPEAAAKPEAAAKPEAAAKPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        186
+      ],
+      "cap": [
+        186,
+        262
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EP4_dark.yaml",
+    "pre_helix": 5,
+    "kink_res": 1,
+    "post_helix": 5,
+    "multi_kink": true
+  },
+  {
+    "construct_name": "pep13s3_EP4_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EP4",
+    "linker_seq": "EAAAKPEAAAKPEAAAKPEAAAKP",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 247,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKPEAAAKPEAAAKPEAAAKPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        171
+      ],
+      "cap": [
+        171,
+        247
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EP4_lit.yaml",
+    "pre_helix": 5,
+    "kink_res": 1,
+    "post_helix": 5,
+    "multi_kink": true
+  },
+  {
+    "construct_name": "pep13s3_P16_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "P16",
+    "linker_seq": "PPPPPPPPPPPPPPPP",
+    "linker_length": 16,
+    "linker_geometry": "ppII",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 254,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAPPPPPPPPPPPPPPPPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        178
+      ],
+      "cap": [
+        178,
+        254
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_P16_dark.yaml"
+  },
+  {
+    "construct_name": "pep13s3_P16_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "P16",
+    "linker_seq": "PPPPPPPPPPPPPPPP",
+    "linker_length": 16,
+    "linker_geometry": "ppII",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 239,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGPPPPPPPPPPPPPPPPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        163
+      ],
+      "cap": [
+        163,
+        239
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_P16_lit.yaml"
+  },
+  {
+    "construct_name": "pep13s3_EAAAK3_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK3",
+    "linker_seq": "EAAAKEAAAKEAAAK",
+    "linker_length": 15,
+    "linker_geometry": "straight",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 253,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        177
+      ],
+      "cap": [
+        177,
+        253
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EAAAK3_dark.yaml"
+  },
+  {
+    "construct_name": "pep13s3_EAAAK3_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK3",
+    "linker_seq": "EAAAKEAAAKEAAAK",
+    "linker_length": 15,
+    "linker_geometry": "straight",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 238,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        162
+      ],
+      "cap": [
+        162,
+        238
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EAAAK3_lit.yaml"
+  },
+  {
+    "construct_name": "pep13s3_EAAAK5_dark",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK5",
+    "linker_seq": "EAAAKEAAAKEAAAKEAAAKEAAAK",
+    "linker_length": 25,
+    "linker_geometry": "straight",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 263,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        162
+      ],
+      "linker": [
+        162,
+        187
+      ],
+      "cap": [
+        187,
+        263
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EAAAK5_dark.yaml"
+  },
+  {
+    "construct_name": "pep13s3_EAAAK5_lit",
+    "binder_name": "pep13s3",
+    "binder_seq": "AAQSGFSPASEAAAAELLAA",
+    "binder_iptm": 0.94,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK5",
+    "linker_seq": "EAAAKEAAAKEAAAKEAAAKEAAAK",
+    "linker_length": 25,
+    "linker_geometry": "straight",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 248,
+    "fusion_seq": "AAQSGFSPASEAAAAELLAAGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        20
+      ],
+      "spacer": [
+        20,
+        26
+      ],
+      "lov2": [
+        26,
+        147
+      ],
+      "linker": [
+        147,
+        172
+      ],
+      "cap": [
+        172,
+        248
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/pep13s3_EAAAK5_lit.yaml"
+  },
+  {
+    "construct_name": "binder_944_E2ppE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE2",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAK",
+    "linker_length": 22,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 360,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        284
+      ],
+      "cap": [
+        284,
+        360
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2ppE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2ppE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE2",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAK",
+    "linker_length": 22,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 345,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        269
+      ],
+      "cap": [
+        269,
+        345
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2ppE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2pppE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2pppE2",
+    "linker_seq": "EAAAKEAAAKPPPEAAAKEAAAK",
+    "linker_length": 23,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 361,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        285
+      ],
+      "cap": [
+        285,
+        361
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2pppE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 3,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2pppE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2pppE2",
+    "linker_seq": "EAAAKEAAAKPPPEAAAKEAAAK",
+    "linker_length": 23,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 346,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPPEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        270
+      ],
+      "cap": [
+        270,
+        346
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2pppE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 3,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2dpgnE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE2",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 362,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        286
+      ],
+      "cap": [
+        286,
+        362
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2dpgnE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2dpgnE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE2",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 347,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        271
+      ],
+      "cap": [
+        271,
+        347
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2dpgnE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2npgdE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2npgdE2",
+    "linker_seq": "EAAAKEAAAKNPGDEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 362,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKNPGDEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        286
+      ],
+      "cap": [
+        286,
+        362
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2npgdE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2npgdE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2npgdE2",
+    "linker_seq": "EAAAKEAAAKNPGDEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 347,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKNPGDEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        271
+      ],
+      "cap": [
+        271,
+        347
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2npgdE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2gpngE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2gpngE2",
+    "linker_seq": "EAAAKEAAAKGPNGEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 362,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKGPNGEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        286
+      ],
+      "cap": [
+        286,
+        362
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2gpngE2_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2gpngE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2gpngE2",
+    "linker_seq": "EAAAKEAAAKGPNGEAAAKEAAAK",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 347,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKGPNGEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        271
+      ],
+      "cap": [
+        271,
+        347
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2gpngE2_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E3dpgnE2_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E3dpgnE2",
+    "linker_seq": "EAAAKEAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 367,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        291
+      ],
+      "cap": [
+        291,
+        367
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E3dpgnE2_dark.yaml",
+    "pre_helix": 15,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E3dpgnE2_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E3dpgnE2",
+    "linker_seq": "EAAAKEAAAKEAAAKDPGNEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 352,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKDPGNEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        276
+      ],
+      "cap": [
+        276,
+        352
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E3dpgnE2_lit.yaml",
+    "pre_helix": 15,
+    "kink_res": 4,
+    "post_helix": 10,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2dpgnE3_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE3",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 367,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKDPGNEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        291
+      ],
+      "cap": [
+        291,
+        367
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2dpgnE3_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2dpgnE3_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2dpgnE3",
+    "linker_seq": "EAAAKEAAAKDPGNEAAAKEAAAKEAAAK",
+    "linker_length": 29,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 352,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKDPGNEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        276
+      ],
+      "cap": [
+        276,
+        352
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2dpgnE3_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 4,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2ppE3_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE3",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAKEAAAK",
+    "linker_length": 27,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 365,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKPPEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        289
+      ],
+      "cap": [
+        289,
+        365
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2ppE3_dark.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_E2ppE3_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "E2ppE3",
+    "linker_seq": "EAAAKEAAAKPPEAAAKEAAAKEAAAK",
+    "linker_length": 27,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 350,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKPPEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        274
+      ],
+      "cap": [
+        274,
+        350
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_E2ppE3_lit.yaml",
+    "pre_helix": 10,
+    "kink_res": 2,
+    "post_helix": 15,
+    "multi_kink": false
+  },
+  {
+    "construct_name": "binder_944_EP4_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EP4",
+    "linker_seq": "EAAAKPEAAAKPEAAAKPEAAAKP",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 362,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKPEAAAKPEAAAKPEAAAKPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        286
+      ],
+      "cap": [
+        286,
+        362
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EP4_dark.yaml",
+    "pre_helix": 5,
+    "kink_res": 1,
+    "post_helix": 5,
+    "multi_kink": true
+  },
+  {
+    "construct_name": "binder_944_EP4_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EP4",
+    "linker_seq": "EAAAKPEAAAKPEAAAKPEAAAKP",
+    "linker_length": 24,
+    "linker_geometry": "kinked",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 347,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKPEAAAKPEAAAKPEAAAKPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        271
+      ],
+      "cap": [
+        271,
+        347
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EP4_lit.yaml",
+    "pre_helix": 5,
+    "kink_res": 1,
+    "post_helix": 5,
+    "multi_kink": true
+  },
+  {
+    "construct_name": "binder_944_P16_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "P16",
+    "linker_seq": "PPPPPPPPPPPPPPPP",
+    "linker_length": 16,
+    "linker_geometry": "ppII",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 354,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAPPPPPPPPPPPPPPPPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        278
+      ],
+      "cap": [
+        278,
+        354
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_P16_dark.yaml"
+  },
+  {
+    "construct_name": "binder_944_P16_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "P16",
+    "linker_seq": "PPPPPPPPPPPPPPPP",
+    "linker_length": 16,
+    "linker_geometry": "ppII",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 339,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGPPPPPPPPPPPPPPPPMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        263
+      ],
+      "cap": [
+        263,
+        339
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_P16_lit.yaml"
+  },
+  {
+    "construct_name": "binder_944_EAAAK3_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK3",
+    "linker_seq": "EAAAKEAAAKEAAAK",
+    "linker_length": 15,
+    "linker_geometry": "straight",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 353,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        277
+      ],
+      "cap": [
+        277,
+        353
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EAAAK3_dark.yaml"
+  },
+  {
+    "construct_name": "binder_944_EAAAK3_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK3",
+    "linker_seq": "EAAAKEAAAKEAAAK",
+    "linker_length": 15,
+    "linker_geometry": "straight",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 338,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        262
+      ],
+      "cap": [
+        262,
+        338
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EAAAK3_lit.yaml"
+  },
+  {
+    "construct_name": "binder_944_EAAAK5_dark",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK5",
+    "linker_seq": "EAAAKEAAAKEAAAKEAAAKEAAAK",
+    "linker_length": 25,
+    "linker_geometry": "straight",
+    "state": "dark",
+    "lov2_length": 136,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 363,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGVMLIKKTAENIDEAAEAAAKEAAAKEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        262
+      ],
+      "linker": [
+        262,
+        287
+      ],
+      "cap": [
+        287,
+        363
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EAAAK5_dark.yaml"
+  },
+  {
+    "construct_name": "binder_944_EAAAK5_lit",
+    "binder_name": "binder_944",
+    "binder_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAH",
+    "binder_iptm": 0.87,
+    "reference_complex_cif": null,
+    "linker_type": "EAAAK5",
+    "linker_seq": "EAAAKEAAAKEAAAKEAAAKEAAAK",
+    "linker_length": 25,
+    "linker_geometry": "straight",
+    "state": "lit",
+    "lov2_length": 121,
+    "cap_name": "UBQ",
+    "cap_length": 76,
+    "spacer": "GGSGGS",
+    "spacer_length": 6,
+    "fusion_length": 348,
+    "fusion_seq": "TEPIRVVLTGYSGAEAARDAALEAGRAASEELAAEIEKAIDEMERTAAEAIAAVRAGTPEEAAAAAAAAEERIRELTRRLQALLERVYADDPGKAMAAVLAAALMGYYKIQEVRGAAAAHGGSGGSLERIEKNFVITDPRLPDNPIIFASDSFLQLTEYSREEILGRNCRFLQGPETDRATVRKIRDAIDNQTEVTVQLINYTKSGKKFWNLFHLQPMRDQKGDVQYFIGVQLDGTEHVRDAAEREGEAAAKEAAAKEAAAKEAAAKEAAAKMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+    "domains": {
+      "binder": [
+        0,
+        120
+      ],
+      "spacer": [
+        120,
+        126
+      ],
+      "lov2": [
+        126,
+        247
+      ],
+      "linker": [
+        247,
+        272
+      ],
+      "cap": [
+        272,
+        348
+      ]
+    },
+    "yaml_path": "/home/thinkingscopeanalysis/als_therapeutics/nanobody_optogenetic_protac/opto_scaffold_pipeline/campaigns/p300_hat_demo/boltz2_yamls/binder_944_EAAAK5_lit.yaml"
+  }
+]

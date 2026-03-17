@@ -1,0 +1,1347 @@
+[
+  {
+    "binder": "pep30s5",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 7.4,
+    "min_hotspots": 7,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      91,
+      111,
+      150,
+      160,
+      163,
+      219,
+      220
+    ],
+    "n_consistent_hotspots": 7,
+    "hotspot_frequency": {
+      "91": 3,
+      "110": 2,
+      "111": 5,
+      "150": 5,
+      "158": 2,
+      "159": 2,
+      "160": 4,
+      "163": 5,
+      "219": 4,
+      "220": 4,
+      "221": 1
+    },
+    "mean_total_contacts": 21.8,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 21,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 55
+      },
+      {
+        "model": "1",
+        "total_contacts": 26,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 74
+      },
+      {
+        "model": "2",
+        "total_contacts": 21,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          163,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 49
+      },
+      {
+        "model": "3",
+        "total_contacts": 21,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 49
+      },
+      {
+        "model": "4",
+        "total_contacts": 20,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 52
+      }
+    ]
+  },
+  {
+    "binder": "pep25s1",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 4.6,
+    "min_hotspots": 2,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      111,
+      160,
+      163,
+      219
+    ],
+    "n_consistent_hotspots": 4,
+    "hotspot_frequency": {
+      "91": 2,
+      "111": 4,
+      "150": 1,
+      "158": 2,
+      "159": 2,
+      "160": 3,
+      "163": 3,
+      "219": 4,
+      "220": 2
+    },
+    "mean_total_contacts": 29.8,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 39,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219
+        ],
+        "a_interface_res": 30,
+        "b_interface_res": 75
+      },
+      {
+        "model": "1",
+        "total_contacts": 28,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          158,
+          159,
+          160,
+          219,
+          220
+        ],
+        "a_interface_res": 28,
+        "b_interface_res": 68
+      },
+      {
+        "model": "2",
+        "total_contacts": 19,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          219,
+          220
+        ],
+        "a_interface_res": 25,
+        "b_interface_res": 38
+      },
+      {
+        "model": "3",
+        "total_contacts": 34,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          111,
+          160,
+          163
+        ],
+        "a_interface_res": 28,
+        "b_interface_res": 68
+      },
+      {
+        "model": "4",
+        "total_contacts": 29,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          91,
+          111,
+          163,
+          219
+        ],
+        "a_interface_res": 21,
+        "b_interface_res": 65
+      }
+    ]
+  },
+  {
+    "binder": "pep21s5",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 8.8,
+    "min_hotspots": 8,
+    "max_hotspots": 9,
+    "consistent_hotspots": [
+      110,
+      111,
+      150,
+      159,
+      160,
+      163,
+      170,
+      220,
+      221
+    ],
+    "n_consistent_hotspots": 9,
+    "hotspot_frequency": {
+      "91": 2,
+      "110": 4,
+      "111": 5,
+      "150": 4,
+      "158": 2,
+      "159": 4,
+      "160": 3,
+      "163": 4,
+      "170": 3,
+      "181": 2,
+      "219": 2,
+      "220": 5,
+      "221": 4
+    },
+    "mean_total_contacts": 33.0,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 39,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          160,
+          170,
+          181,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 88
+      },
+      {
+        "model": "1",
+        "total_contacts": 29,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          170,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 51
+      },
+      {
+        "model": "2",
+        "total_contacts": 36,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          159,
+          163,
+          170,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 74
+      },
+      {
+        "model": "3",
+        "total_contacts": 34,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          158,
+          159,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 70
+      },
+      {
+        "model": "4",
+        "total_contacts": 27,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          181,
+          220,
+          221
+        ],
+        "a_interface_res": 18,
+        "b_interface_res": 54
+      }
+    ]
+  },
+  {
+    "binder": "pep15s3",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 5.2,
+    "min_hotspots": 1,
+    "max_hotspots": 9,
+    "consistent_hotspots": [
+      111,
+      150,
+      160,
+      163
+    ],
+    "n_consistent_hotspots": 4,
+    "hotspot_frequency": {
+      "91": 2,
+      "110": 2,
+      "111": 4,
+      "150": 4,
+      "158": 2,
+      "159": 1,
+      "160": 3,
+      "163": 4,
+      "170": 1,
+      "220": 2,
+      "221": 1
+    },
+    "mean_total_contacts": 23.8,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 24,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 59
+      },
+      {
+        "model": "1",
+        "total_contacts": 19,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          160,
+          163
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 45
+      },
+      {
+        "model": "2",
+        "total_contacts": 33,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          160,
+          163,
+          220,
+          221
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 58
+      },
+      {
+        "model": "3",
+        "total_contacts": 20,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          111,
+          150,
+          163
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 42
+      },
+      {
+        "model": "4",
+        "total_contacts": 23,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 37
+      }
+    ]
+  },
+  {
+    "binder": "pep48s5",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 6.6,
+    "min_hotspots": 5,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      111,
+      150,
+      158,
+      159,
+      160,
+      220
+    ],
+    "n_consistent_hotspots": 6,
+    "hotspot_frequency": {
+      "91": 2,
+      "110": 1,
+      "111": 4,
+      "150": 3,
+      "158": 3,
+      "159": 3,
+      "160": 5,
+      "163": 2,
+      "170": 2,
+      "181": 1,
+      "219": 2,
+      "220": 3,
+      "221": 2
+    },
+    "mean_total_contacts": 31.4,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 31,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 61
+      },
+      {
+        "model": "1",
+        "total_contacts": 34,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          158,
+          159,
+          160,
+          170,
+          181
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 55
+      },
+      {
+        "model": "2",
+        "total_contacts": 23,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          163,
+          220,
+          221
+        ],
+        "a_interface_res": 17,
+        "b_interface_res": 52
+      },
+      {
+        "model": "3",
+        "total_contacts": 28,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          158,
+          159,
+          160,
+          170
+        ],
+        "a_interface_res": 17,
+        "b_interface_res": 52
+      },
+      {
+        "model": "4",
+        "total_contacts": 41,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          160,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 84
+      }
+    ]
+  },
+  {
+    "binder": "pep16s5",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 6.8,
+    "min_hotspots": 4,
+    "max_hotspots": 10,
+    "consistent_hotspots": [
+      91,
+      111,
+      150,
+      159,
+      160,
+      163,
+      220
+    ],
+    "n_consistent_hotspots": 7,
+    "hotspot_frequency": {
+      "91": 3,
+      "110": 2,
+      "111": 5,
+      "150": 4,
+      "158": 2,
+      "159": 3,
+      "160": 4,
+      "163": 4,
+      "219": 1,
+      "220": 5,
+      "221": 1
+    },
+    "mean_total_contacts": 28.2,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 30,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          158,
+          159,
+          163,
+          220
+        ],
+        "a_interface_res": 28,
+        "b_interface_res": 62
+      },
+      {
+        "model": "1",
+        "total_contacts": 27,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          91,
+          111,
+          160,
+          163,
+          220
+        ],
+        "a_interface_res": 25,
+        "b_interface_res": 54
+      },
+      {
+        "model": "2",
+        "total_contacts": 34,
+        "hotspot_contacts": 10,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          220,
+          221
+        ],
+        "a_interface_res": 27,
+        "b_interface_res": 55
+      },
+      {
+        "model": "3",
+        "total_contacts": 23,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 21,
+        "b_interface_res": 35
+      },
+      {
+        "model": "4",
+        "total_contacts": 27,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          111,
+          150,
+          160,
+          220
+        ],
+        "a_interface_res": 28,
+        "b_interface_res": 45
+      }
+    ]
+  },
+  {
+    "binder": "pep36s1",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 5.6,
+    "min_hotspots": 3,
+    "max_hotspots": 7,
+    "consistent_hotspots": [
+      91,
+      111,
+      159,
+      163,
+      219
+    ],
+    "n_consistent_hotspots": 5,
+    "hotspot_frequency": {
+      "91": 4,
+      "110": 1,
+      "111": 5,
+      "158": 2,
+      "159": 3,
+      "160": 2,
+      "163": 5,
+      "170": 2,
+      "219": 3,
+      "220": 1
+    },
+    "mean_total_contacts": 38.4,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 37,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          111,
+          159,
+          160,
+          163,
+          170,
+          219,
+          220
+        ],
+        "a_interface_res": 39,
+        "b_interface_res": 64
+      },
+      {
+        "model": "1",
+        "total_contacts": 32,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          91,
+          111,
+          163,
+          219
+        ],
+        "a_interface_res": 39,
+        "b_interface_res": 68
+      },
+      {
+        "model": "2",
+        "total_contacts": 40,
+        "hotspot_contacts": 3,
+        "hotspots_hit": [
+          91,
+          111,
+          163
+        ],
+        "a_interface_res": 39,
+        "b_interface_res": 70
+      },
+      {
+        "model": "3",
+        "total_contacts": 46,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          111,
+          158,
+          159,
+          160,
+          163,
+          170
+        ],
+        "a_interface_res": 40,
+        "b_interface_res": 89
+      },
+      {
+        "model": "4",
+        "total_contacts": 37,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          158,
+          159,
+          163,
+          219
+        ],
+        "a_interface_res": 39,
+        "b_interface_res": 73
+      }
+    ]
+  },
+  {
+    "binder": "pep29s5",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 4.4,
+    "min_hotspots": 1,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      111,
+      160,
+      163
+    ],
+    "n_consistent_hotspots": 3,
+    "hotspot_frequency": {
+      "91": 1,
+      "110": 1,
+      "111": 3,
+      "150": 2,
+      "158": 2,
+      "159": 2,
+      "160": 3,
+      "163": 3,
+      "170": 2,
+      "219": 1,
+      "220": 1,
+      "221": 1
+    },
+    "mean_total_contacts": 28.8,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 46,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          159,
+          160,
+          163
+        ],
+        "a_interface_res": 30,
+        "b_interface_res": 70
+      },
+      {
+        "model": "1",
+        "total_contacts": 45,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163
+        ],
+        "a_interface_res": 30,
+        "b_interface_res": 84
+      },
+      {
+        "model": "2",
+        "total_contacts": 12,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "a_interface_res": 13,
+        "b_interface_res": 16
+      },
+      {
+        "model": "3",
+        "total_contacts": 18,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "a_interface_res": 26,
+        "b_interface_res": 29
+      },
+      {
+        "model": "4",
+        "total_contacts": 23,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          160,
+          163,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 22,
+        "b_interface_res": 48
+      }
+    ]
+  },
+  {
+    "binder": "pep21s2",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 6.4,
+    "min_hotspots": 4,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      110,
+      111,
+      150,
+      160,
+      220,
+      221
+    ],
+    "n_consistent_hotspots": 6,
+    "hotspot_frequency": {
+      "91": 2,
+      "110": 4,
+      "111": 4,
+      "150": 5,
+      "160": 4,
+      "163": 1,
+      "170": 1,
+      "181": 2,
+      "219": 2,
+      "220": 3,
+      "221": 4
+    },
+    "mean_total_contacts": 39.0,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 39,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          160,
+          181,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 93
+      },
+      {
+        "model": "1",
+        "total_contacts": 45,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          160,
+          170,
+          181,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 104
+      },
+      {
+        "model": "2",
+        "total_contacts": 30,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 77
+      },
+      {
+        "model": "3",
+        "total_contacts": 38,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          219
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 101
+      },
+      {
+        "model": "4",
+        "total_contacts": 43,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          163,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 100
+      }
+    ]
+  },
+  {
+    "binder": "pep24s3",
+    "n_models": 5,
+    "models_with_hotspots": 4,
+    "consistency": 0.8,
+    "mean_hotspots": 5.2,
+    "min_hotspots": 0,
+    "max_hotspots": 8,
+    "consistent_hotspots": [
+      111,
+      150,
+      158,
+      160,
+      219,
+      220
+    ],
+    "n_consistent_hotspots": 6,
+    "hotspot_frequency": {
+      "111": 4,
+      "150": 3,
+      "158": 3,
+      "159": 2,
+      "160": 4,
+      "163": 2,
+      "219": 4,
+      "220": 3,
+      "221": 1
+    },
+    "mean_total_contacts": 18.2,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 19,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          111,
+          150,
+          160,
+          219,
+          220,
+          221
+        ],
+        "a_interface_res": 15,
+        "b_interface_res": 27
+      },
+      {
+        "model": "1",
+        "total_contacts": 17,
+        "hotspot_contacts": 7,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 16,
+        "b_interface_res": 28
+      },
+      {
+        "model": "2",
+        "total_contacts": 25,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 41
+      },
+      {
+        "model": "3",
+        "total_contacts": 23,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          158,
+          159,
+          160,
+          219
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 36
+      },
+      {
+        "model": "4",
+        "total_contacts": 7,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 9,
+        "b_interface_res": 9
+      }
+    ]
+  },
+  {
+    "binder": "pep13s3",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 4.4,
+    "min_hotspots": 2,
+    "max_hotspots": 6,
+    "consistent_hotspots": [
+      111,
+      150,
+      160,
+      221
+    ],
+    "n_consistent_hotspots": 4,
+    "hotspot_frequency": {
+      "91": 2,
+      "111": 3,
+      "150": 4,
+      "158": 2,
+      "159": 1,
+      "160": 3,
+      "163": 1,
+      "170": 1,
+      "220": 2,
+      "221": 3
+    },
+    "mean_total_contacts": 23.4,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 25,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          150,
+          160,
+          220,
+          221
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 48
+      },
+      {
+        "model": "1",
+        "total_contacts": 33,
+        "hotspot_contacts": 6,
+        "hotspots_hit": [
+          91,
+          111,
+          150,
+          158,
+          160,
+          163
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 81
+      },
+      {
+        "model": "2",
+        "total_contacts": 20,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          111,
+          150,
+          158,
+          220,
+          221
+        ],
+        "a_interface_res": 19,
+        "b_interface_res": 38
+      },
+      {
+        "model": "3",
+        "total_contacts": 28,
+        "hotspot_contacts": 5,
+        "hotspots_hit": [
+          150,
+          159,
+          160,
+          170,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 59
+      },
+      {
+        "model": "4",
+        "total_contacts": 11,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          91,
+          111
+        ],
+        "a_interface_res": 13,
+        "b_interface_res": 29
+      }
+    ]
+  },
+  {
+    "binder": "pep4s2",
+    "n_models": 5,
+    "models_with_hotspots": 0,
+    "consistency": 0.0,
+    "mean_hotspots": 0.0,
+    "min_hotspots": 0,
+    "max_hotspots": 0,
+    "consistent_hotspots": [],
+    "n_consistent_hotspots": 0,
+    "hotspot_frequency": {},
+    "mean_total_contacts": 14.8,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 15,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 25,
+        "b_interface_res": 31
+      },
+      {
+        "model": "1",
+        "total_contacts": 12,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 25,
+        "b_interface_res": 26
+      },
+      {
+        "model": "2",
+        "total_contacts": 20,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 27,
+        "b_interface_res": 33
+      },
+      {
+        "model": "3",
+        "total_contacts": 13,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 25,
+        "b_interface_res": 27
+      },
+      {
+        "model": "4",
+        "total_contacts": 14,
+        "hotspot_contacts": 0,
+        "hotspots_hit": [],
+        "a_interface_res": 25,
+        "b_interface_res": 30
+      }
+    ]
+  },
+  {
+    "binder": "pep17s4",
+    "n_models": 5,
+    "models_with_hotspots": 5,
+    "consistency": 1.0,
+    "mean_hotspots": 4.8,
+    "min_hotspots": 1,
+    "max_hotspots": 9,
+    "consistent_hotspots": [
+      110,
+      111,
+      150,
+      163
+    ],
+    "n_consistent_hotspots": 4,
+    "hotspot_frequency": {
+      "91": 2,
+      "110": 3,
+      "111": 3,
+      "150": 3,
+      "159": 2,
+      "160": 2,
+      "163": 3,
+      "170": 2,
+      "219": 1,
+      "220": 2,
+      "221": 1
+    },
+    "mean_total_contacts": 26.2,
+    "per_model": [
+      {
+        "model": "0",
+        "total_contacts": 13,
+        "hotspot_contacts": 1,
+        "hotspots_hit": [
+          170
+        ],
+        "a_interface_res": 18,
+        "b_interface_res": 34
+      },
+      {
+        "model": "1",
+        "total_contacts": 33,
+        "hotspot_contacts": 8,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          160,
+          163,
+          220,
+          221
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 67
+      },
+      {
+        "model": "2",
+        "total_contacts": 29,
+        "hotspot_contacts": 2,
+        "hotspots_hit": [
+          159,
+          170
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 58
+      },
+      {
+        "model": "3",
+        "total_contacts": 26,
+        "hotspot_contacts": 9,
+        "hotspots_hit": [
+          91,
+          110,
+          111,
+          150,
+          159,
+          160,
+          163,
+          219,
+          220
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 65
+      },
+      {
+        "model": "4",
+        "total_contacts": 30,
+        "hotspot_contacts": 4,
+        "hotspots_hit": [
+          110,
+          111,
+          150,
+          163
+        ],
+        "a_interface_res": 20,
+        "b_interface_res": 70
+      }
+    ]
+  }
+]

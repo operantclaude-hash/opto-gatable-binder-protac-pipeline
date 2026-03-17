@@ -1,0 +1,122 @@
+[
+  {
+    "binder": "pep13s3",
+    "binder_length": 20,
+    "best_iptm": 0.22162535786628723,
+    "mean_iptm": 0.14196774065494538,
+    "best_bdr_hotspots": 0,
+    "mean_bdr_hotspots": 0.0,
+    "mean_scaf_hotspots": 3.8,
+    "driver": "SCAFFOLD-ONLY"
+  },
+  {
+    "binder": "pep15s3",
+    "binder_length": 20,
+    "best_iptm": 0.1890946626663208,
+    "mean_iptm": 0.13349436670541764,
+    "best_bdr_hotspots": 0,
+    "mean_bdr_hotspots": 0.0,
+    "mean_scaf_hotspots": 4.0,
+    "driver": "SCAFFOLD-ONLY"
+  },
+  {
+    "binder": "pep16s5",
+    "binder_length": 30,
+    "best_iptm": 0.26664063334465027,
+    "mean_iptm": 0.2060668870806694,
+    "best_bdr_hotspots": 5,
+    "mean_bdr_hotspots": 1.0,
+    "mean_scaf_hotspots": 3.8,
+    "driver": "SCAFFOLD-DOM"
+  },
+  {
+    "binder": "pep21s2",
+    "binder_length": 20,
+    "best_iptm": 0.16272225975990295,
+    "mean_iptm": 0.1538148671388626,
+    "best_bdr_hotspots": 6,
+    "mean_bdr_hotspots": 3.4,
+    "mean_scaf_hotspots": 2.6,
+    "driver": "BINDER-DRIVEN"
+  },
+  {
+    "binder": "pep21s5",
+    "binder_length": 20,
+    "best_iptm": 0.2027929723262787,
+    "mean_iptm": 0.16928748190402984,
+    "best_bdr_hotspots": 5,
+    "mean_bdr_hotspots": 2.4,
+    "mean_scaf_hotspots": 4.0,
+    "driver": "MIXED"
+  },
+  {
+    "binder": "pep24s3",
+    "binder_length": 20,
+    "best_iptm": 0.1315990388393402,
+    "mean_iptm": 0.1268480747938156,
+    "best_bdr_hotspots": 0,
+    "mean_bdr_hotspots": 0.0,
+    "mean_scaf_hotspots": 4.6,
+    "driver": "SCAFFOLD-ONLY"
+  },
+  {
+    "binder": "pep25s1",
+    "binder_length": 30,
+    "best_iptm": 0.3441319465637207,
+    "mean_iptm": 0.26042201220989225,
+    "best_bdr_hotspots": 6,
+    "mean_bdr_hotspots": 3.2,
+    "mean_scaf_hotspots": 3.8,
+    "driver": "MIXED"
+  },
+  {
+    "binder": "pep29s5",
+    "binder_length": 30,
+    "best_iptm": 0.2102108746767044,
+    "mean_iptm": 0.1577657788991928,
+    "best_bdr_hotspots": 2,
+    "mean_bdr_hotspots": 0.6,
+    "mean_scaf_hotspots": 2.6,
+    "driver": "SCAFFOLD-DOM"
+  },
+  {
+    "binder": "pep30s5",
+    "binder_length": 20,
+    "best_iptm": 0.21072132885456085,
+    "mean_iptm": 0.14849090427160264,
+    "best_bdr_hotspots": 0,
+    "mean_bdr_hotspots": 0.0,
+    "mean_scaf_hotspots": 3.8,
+    "driver": "SCAFFOLD-ONLY"
+  },
+  {
+    "binder": "pep36s1",
+    "binder_length": 40,
+    "best_iptm": 0.4824277460575104,
+    "mean_iptm": 0.347706101834774,
+    "best_bdr_hotspots": 8,
+    "mean_bdr_hotspots": 3.2,
+    "mean_scaf_hotspots": 4.2,
+    "driver": "MIXED"
+  },
+  {
+    "binder": "pep48s5",
+    "binder_length": 20,
+    "best_iptm": 0.21463079750537872,
+    "mean_iptm": 0.18221356570720673,
+    "best_bdr_hotspots": 7,
+    "mean_bdr_hotspots": 2.6,
+    "mean_scaf_hotspots": 5.2,
+    "driver": "MIXED"
+  },
+  {
+    "binder": "scaffold_only_HAT",
+    "binder_length": 20,
+    "best_iptm": 0.2364722490310669,
+    "mean_iptm": 0.18560161888599397,
+    "best_bdr_hotspots": 6,
+    "mean_bdr_hotspots": 4.2,
+    "mean_scaf_hotspots": 3.2,
+    "driver": "BINDER-DRIVEN"
+  }
+]

@@ -1,0 +1,74 @@
+# ChimeraX script: N-term vs C-term degron placement — DARK state comparison
+# Key question: Does N-terminal E3+VVD sterically block the binder interface?
+#
+# Layout: 2 panels side-by-side
+#   LEFT  = N-term dark + target
+#   RIGHT = C-term dark + target
+#
+# Color scheme:
+#   gold           = binder (pep4s2, 50aa)
+#   mediumpurple   = E3 ligase (TRIM21 RBCC, 236aa)
+#   orange         = VVD dimerizer (158aa)
+#   tomato         = LOV2 + linker (dark scaffold)
+#   salmon         = cap (UBQ)
+#   cornflowerblue = target (p300 HAT)
+#   gray           = GS linkers + spacer
+
+# ===== Load structures =====
+open boltz2_results/degron_nterm_dark_target/boltz_results_degron_nterm_dark_target/predictions/degron_nterm_dark_target/degron_nterm_dark_target_model_0.cif
+open boltz2_results/degron_cterm_dark_target/boltz_results_degron_cterm_dark_target/predictions/degron_cterm_dark_target/degron_cterm_dark_target_model_0.cif
+
+# ===== Background =====
+set bgColor white
+hide all
+show cartoons
+
+# ===== Color target =====
+color #1/B cornflowerblue
+color #2/B cornflowerblue
+
+# ===== N-TERM DARK (#1) =====
+color #1/A:1-236 mediumpurple
+color #1/A:237-251 gray
+color #1/A:252-409 orange
+color #1/A:410-424 gray
+color #1/A:425-474 gold
+color #1/A:475-480 gray
+color #1/A:481-639 tomato
+color #1/A:640-715 salmon
+
+# ===== C-TERM DARK (#2) =====
+color #2/A:1-50 gold
+color #2/A:51-56 gray
+color #2/A:57-215 tomato
+color #2/A:216-291 salmon
+color #2/A:292-306 gray
+color #2/A:307-464 orange
+color #2/A:465-479 gray
+color #2/A:480-715 mediumpurple
+
+# ===== Target surface =====
+surface #1/B #2/B
+transparency #1/B 65
+transparency #2/B 65
+
+# ===== Align on target =====
+matchmaker #2/B to #1/B
+
+# ===== Spread horizontally =====
+move x -150 models #1
+move x 150 models #2
+
+# ===== Labels =====
+2dlabels create title text "Degron Placement: N-terminal vs C-terminal" xpos 0.18 ypos 0.97 size 18 bold true color black
+2dlabels create l1 text "N-TERMINAL" xpos 0.15 ypos 0.92 size 16 bold true color mediumpurple
+2dlabels create l2 text "C-TERMINAL" xpos 0.65 ypos 0.92 size 16 bold true color mediumpurple
+
+2dlabels create a1 text "[E3]-[VVD]-[Binder]-[LOV2]-[Cap]" xpos 0.07 ypos 0.88 size 12 color black
+2dlabels create a2 text "[Binder]-[LOV2]-[Cap]-[VVD]-[E3]" xpos 0.57 ypos 0.88 size 12 color black
+
+2dlabels create leg text "purple=TRIM21  orange=VVD  gold=binder  red=LOV2  salmon=cap  blue=HAT" xpos 0.12 ypos 0.02 size 12 color black
+
+# ===== Lighting =====
+lighting soft
+view
