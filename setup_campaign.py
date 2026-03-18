@@ -160,7 +160,7 @@ def make_yaml_2chain(fusion_seq, target_seq, contacts=None):
     return "\n".join(lines) + "\n"
 
 
-def setup_campaign(config_path):
+def setup_campaign(config_path, n_gpus=1):
     """Main entry: read config, assemble fusions, generate YAMLs + manifest."""
     config_path = Path(config_path)
     with open(config_path) as f:
@@ -268,7 +268,7 @@ def setup_campaign(config_path):
 
     # Generate run_predictions.sh
     run_script = generate_run_script(
-        yaml_dir, results_dir, yaml_names, n_samples, n_recycle
+        yaml_dir, results_dir, yaml_names, n_samples, n_recycle, n_gpus
     )
     run_path = campaign_dir / "run_predictions.sh"
     run_path.write_text(run_script)
@@ -284,12 +284,17 @@ def setup_campaign(config_path):
     return manifest
 
 
-def generate_run_script(yaml_dir, results_dir, yaml_names, n_samples, n_recycle):
-    """Generate bash script to run all Boltz-2 predictions sequentially."""
+def generate_run_script(yaml_dir, results_dir, yaml_names, n_samples, n_recycle,
+                        n_gpus=1):
+    """Generate bash script to run Boltz-2 predictions.
+
+    Args:
+        n_gpus: number of GPUs to distribute predictions across.
+            1 = sequential, >1 = parallel with CUDA_VISIBLE_DEVICES.
+    """
     lines = [
         "#!/bin/bash",
-        "# Auto-generated Boltz-2 prediction runner",
-        "# Run predictions sequentially (GPU memory constraint)",
+        f"# Auto-generated Boltz-2 prediction runner ({n_gpus} GPU{'s' if n_gpus > 1 else ''})",
         "",
         "set +e",
         "source ~/miniconda3/etc/profile.d/conda.sh",
@@ -299,31 +304,86 @@ def generate_run_script(yaml_dir, results_dir, yaml_names, n_samples, n_recycle)
         f'RESULTS_DIR="{results_dir}"',
         "",
         f"TOTAL={len(yaml_names)}",
-        "COUNT=0",
         "",
     ]
 
-    for name in yaml_names:
+    if n_gpus > 1:
+        # Multi-GPU: write all YAML names to array, chunk across GPUs
         lines.extend([
-            'COUNT=$((COUNT + 1))',
-            f'echo "[${{COUNT}}/${{TOTAL}}] {name}..."',
-            '',
-            '# Skip if already has CIF files',
-            f'if find "$RESULTS_DIR/{name}" -name "*.cif" 2>/dev/null | grep -q cif; then',
-            '    echo "  (already complete, skipping)"',
-            'else',
-            '    python3 -c "import torch; torch.cuda.empty_cache()" 2>/dev/null',
-            f'    boltz predict "$YAML_DIR/{name}.yaml" \\',
-            f'        --out_dir "$RESULTS_DIR/{name}" \\',
-            '        --model boltz2 \\',
-            f'        --diffusion_samples {n_samples} \\',
-            f'        --recycling_steps {n_recycle} \\',
-            '        --override 2>&1 | tail -3',
-            f'    CIF_COUNT=$(find "$RESULTS_DIR/{name}" -name "*.cif" 2>/dev/null | wc -l)',
-            '    echo "  $CIF_COUNT models generated"',
-            'fi',
-            '',
+            "# Prediction list",
+            "YAMLS=(",
         ])
+        for name in yaml_names:
+            lines.append(f'    "{name}"')
+        lines.extend([
+            ")",
+            "",
+            f"N_GPUS={n_gpus}",
+            "PER_GPU=$(( (TOTAL + N_GPUS - 1) / N_GPUS ))",
+            "",
+            "predict_chunk() {",
+            "    local GPU_ID=$1",
+            "    shift",
+            '    local NAMES=("$@")',
+            "    local DONE=0",
+            "",
+            '    for NAME in "${NAMES[@]}"; do',
+            '        if find "$RESULTS_DIR/$NAME" -name "*.cif" 2>/dev/null | grep -q cif; then',
+            "            ((DONE++))",
+            "            continue",
+            "        fi",
+            "",
+            '        CUDA_VISIBLE_DEVICES=$GPU_ID boltz predict "$YAML_DIR/$NAME.yaml" \\',
+            '            --out_dir "$RESULTS_DIR/$NAME" \\',
+            "            --model boltz2 \\",
+            f"            --diffusion_samples {n_samples} \\",
+            f"            --recycling_steps {n_recycle} \\",
+            '            --override 2>&1 | tail -3',
+            "",
+            "        ((DONE++))",
+            '        echo "  [GPU $GPU_ID] ${DONE}/${#NAMES[@]} — $NAME"',
+            "    done",
+            "}",
+            "",
+            "# Launch parallel GPU workers",
+            "for GPU in $(seq 0 $((N_GPUS-1))); do",
+            "    START=$((GPU * PER_GPU))",
+            '    CHUNK=("${YAMLS[@]:$START:$PER_GPU}")',
+            '    if [ ${#CHUNK[@]} -gt 0 ]; then',
+            '        echo "GPU $GPU: ${#CHUNK[@]} predictions"',
+            '        predict_chunk $GPU "${CHUNK[@]}" &',
+            "    fi",
+            "done",
+            "",
+            'echo "Waiting for all $N_GPUS GPUs to finish..."',
+            "wait",
+        ])
+    else:
+        # Single GPU: sequential
+        lines.append("COUNT=0")
+        lines.append("")
+
+        for name in yaml_names:
+            lines.extend([
+                'COUNT=$((COUNT + 1))',
+                f'echo "[${{COUNT}}/${{TOTAL}}] {name}..."',
+                '',
+                '# Skip if already has CIF files',
+                f'if find "$RESULTS_DIR/{name}" -name "*.cif" 2>/dev/null | grep -q cif; then',
+                '    echo "  (already complete, skipping)"',
+                'else',
+                '    python3 -c "import torch; torch.cuda.empty_cache()" 2>/dev/null',
+                f'    boltz predict "$YAML_DIR/{name}.yaml" \\',
+                f'        --out_dir "$RESULTS_DIR/{name}" \\',
+                '        --model boltz2 \\',
+                f'        --diffusion_samples {n_samples} \\',
+                f'        --recycling_steps {n_recycle} \\',
+                '        --override 2>&1 | tail -3',
+                f'    CIF_COUNT=$(find "$RESULTS_DIR/{name}" -name "*.cif" 2>/dev/null | wc -l)',
+                '    echo "  $CIF_COUNT models generated"',
+                'fi',
+                '',
+            ])
 
     lines.extend([
         'echo ""',
@@ -335,9 +395,12 @@ def generate_run_script(yaml_dir, results_dir, yaml_names, n_samples, n_recycle)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 setup_campaign.py <campaign_config.json>")
-        print("       python3 setup_campaign.py defaults/default_config.json")
-        sys.exit(1)
+    import argparse as _ap
 
-    setup_campaign(sys.argv[1])
+    _parser = _ap.ArgumentParser(description="Setup opto-gatable binder campaign")
+    _parser.add_argument("config", help="Campaign config JSON file")
+    _parser.add_argument("--n_gpus", type=int, default=1,
+                         help="Number of GPUs for prediction script (default: 1)")
+    _args = _parser.parse_args()
+
+    setup_campaign(_args.config, n_gpus=_args.n_gpus)

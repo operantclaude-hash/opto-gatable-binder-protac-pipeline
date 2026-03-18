@@ -52,5 +52,24 @@
     "diffusion_samples": 5,
     "recycling_steps": 3,
     "model": "boltz2"
+  },
+  "binder_design": {
+    "lengths": [
+      20,
+      30,
+      40,
+      50
+    ],
+    "designs_per_length": 25,
+    "seqs_per_backbone": 5,
+    "boltz2_samples": 5,
+    "top_n_binders": 10,
+    "max_retries": 3,
+    "n_gpus": 1,
+    "rfdiffusion_path": "/path/to/RFdiffusion",
+    "ligandmpnn_path": "/path/to/LigandMPNN",
+    "target_pdb": null,
+    "hotspot_residues_pdb": [],
+    "contig": null
   }
 }
